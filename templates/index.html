@@ -1,0 +1,141 @@
+<html>
+<head>
+    <script src="https://cdn.socket.io/4.3.1/socket.io.js"></script>
+
+    <title>Virtual Guide</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        .heading {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+        .button-row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .button-row button {
+            margin: 0 10px;
+        }
+        .countdown{
+            color:red;
+        }
+        
+       h1{
+        background: linear-gradient(90deg,#e0e7f2,#875bec);    ;
+        font-family: "Lucida Console", "Courier New", monospace;                    
+        border-radius: 5px;
+      }
+      .card-header{
+        background: linear-gradient(90deg,#e0e7f2,#af8efd);    ;
+      }
+      .card-body{
+        background:rgb(243, 246, 251);
+
+      }
+    </style>
+
+</head>
+
+<body>
+    <div class="m-5"></div>
+    <div class="container border border " style=" background-color: linear-gradient(90def,rgb(145, 138, 138),blue);">
+        <div class="row">
+        <h1 class="heading" style="color:rgb(255, 255, 255);"><span style="color:rgb(10, 3, 68)">Virtual</span> Guide</h1>
+        </div><br>
+        <center>
+        <div class="card text-dark bg-light mb-3" style="max-width: 38rem;">
+            <div class="card-header">Input Language</div>
+            <div class="card-body">
+                <div class="form-group">
+                    <select class="form-control" id="input-language">
+                        <option value="">Select  language</option>
+                        <option value="tamil">Tamil</option>
+                        <option value="english">English</option>
+                        <option value="kannada">Kannada</option>
+                        <option value="marathi">Marathi</option>
+                        <option value="hindi">Hindi</option>
+                        <option value="telugu">Telugu</option>
+                        <option value="gujarati">Gujarati</option>
+
+                        <!-- Add more options for other languages if needed -->
+                    </select>
+                </div>
+            </div>
+          </div>
+       </center>
+        <div class="button-row">
+            <button class="btn btn-primary" id="start-recording">Start Recording</button>
+            <!-- <button class="btn btn-danger" id="stop-recording">Stop Recording</button> -->
+            <button class="btn btn-success" id="play-voice" disabled >Answer</button>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <div id = "record"></div>
+
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <div id = "status"><center><p id="countdown" class="countdown"></p></center></div>
+            </blockquote>
+            </div>
+          </div>
+          <div class="m-5"></div>
+
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        
+        const socket = io();
+
+        socket.on('connect', () => {
+            console.log('Connected to server');
+        });
+        socket.on('response', function(response) {
+            $('#status').append('<p>' + response + '</p>');
+        });
+        socket.on('record', function(response) {
+            $('#record').append('<span>' + response + '</span>');
+            var count = 5;
+            var countdownElement = document.getElementById('countdown');
+            var start_recording=document.getElementById('start-recording');
+            var play_voice=document.getElementById('play-voice');
+            var countdownInterval = setInterval(function() {
+                countdownElement.textContent = count;
+        
+                if (count === 1) {
+                    countdownElement.textContent = 'Recording Completed... Click the Answer Button';
+                    start_recording.disabled=true;
+                    play_voice.disabled=false;
+                    clearInterval(countdownInterval);
+                }
+        
+                count--;
+            }, 1000);
+        });
+        socket.on('disconnect', () => {
+            console.log('Disconnected from server');
+        });
+        function removeContent() {
+            var div = document.getElementById('status');
+            var div2 = document.getElementById('record');
+
+            div.innerHTML = '';
+        div2.innerHTML='';
+            // Load another response
+            var playVoiceButton = document.getElementById('play-voice');
+            playVoiceButton.disabled = false;
+            // Add code here to load the new response
+        }
+        // Event listener for the Answer button
+        var answerButton = document.getElementById('play-voice');
+        answerButton.addEventListener('click', removeContent);
+        
+    </script>
+</body>
+</html>
