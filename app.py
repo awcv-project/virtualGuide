@@ -9,6 +9,7 @@ import base64
 from playsound import playsound
 
 
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'key'
 socketio = SocketIO(app)
@@ -33,10 +34,16 @@ def start_recording():
 @app.route('/play_voice', methods=['POST'])
 def play_voice():
     # Convert audio to text
+    audio_file = request.files["audio"]
     input_audio_path = './input_prompt.wav'
-    data = request.get_json()
-    input_language = data.get('inputLanguage')
+
+    # Save the audio file
+    audio_file.save(input_audio_path)
+
+    input_language = request.form["language"]
+    target_language = request.form["target_language"]
     print(input_language)
+    print(target_language)
     stt = json.loads(speech_to_text(input_language, input_audio_path))['transcript']
     responseText = "Question : " + stt
     socketio.emit("response", responseText)
@@ -57,7 +64,7 @@ def play_voice():
 
     # Translate chatbot response
     src_language = 'english'
-    tgt_language = input_language
+    tgt_language = target_language
     translation = mt(src_language, tgt_language, chat_bot_response)
     print('Translated chatbot response:', translation)
     responseText = "Answer in input language: " + translation
@@ -68,7 +75,7 @@ def play_voice():
 
     # Convert chatbot response to speech
     gender = 'female'
-    lang = input_language
+    lang = target_language
     txt = translation
     output = text_to_speech(txt, gender, lang)['audio']
     file_name = "tts.mp3"
@@ -89,7 +96,7 @@ def play_voice():
 
 # STT
 def speech_to_text(input_language,input_audio_path):
-    print("fun called")
+    print("speech_to_text function called")
     url = "https://asr.iitm.ac.in/asr/v2/decode"
     audio_file = input_audio_path.split('/')[::-1][0]
     payload={'vtt': 'true', 'language': input_language}
@@ -123,11 +130,12 @@ def chat_bot(input_question):
 
     headers = {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer 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'
+    'Authorization': 'Bearer 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'
     }
 
     response = requests.request("POST", url, headers=headers, data=payload)
     output = json.loads(response.text)['choices'][0]['text']
+    print(response.text)
     return output
 
 
@@ -155,5 +163,4 @@ def handle_disconnect():
 
 
 if __name__ == '__main__':
-    socketio.run(app)
-    socketio.run(app,host='0.0.0.0',port=5000)
+    socketio.run(app,host='0.0.0.0',port=5002)
