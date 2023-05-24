@@ -18,16 +18,18 @@
     }
     #status {
       margin-bottom: 20px;
+      padding: 20px;
     }
+    
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Virtual Guide</h1>
     <div class="form-group">
-      <label for="languageDropdown">Select language</label>
+      <label for="languageDropdown">Select languages from a given set of options</label>
       <select class="form-control" id="languageDropdown">
-        <option value="">Select language</option>
+        <option value="">Source language</option>
         <option value="tamil">Tamil</option>
         <option value="english">English</option>
         <option value="kannada">Kannada</option>
@@ -38,9 +40,8 @@
       </select>
     </div>
     <div class="form-group">
-      <label for="targetlanguageDropdown">Select target language</label>
       <select class="form-control" id="targetlanguageDropdown">
-        <option value="">Select target language</option>
+        <option value="">Target language</option>
         <option value="tamil">Tamil</option>
         <option value="english">English</option>
         <option value="kannada">Kannada</option>
@@ -51,19 +52,15 @@
       </select>
     </div>
     <div class="btn-group">
-      <button class="btn btn-primary" id="startBtn" onclick="startRecording()">Start Recording</button>
-      <button class="btn btn-danger" id="stopBtn" onclick="stopRecording()">Stop Recording</button>
-      <button class="btn btn-success" id="sendBtn" onclick="sendAudio()">Get Response</button>
+      <button class="btn btn-primary" id="recordBtn" onclick="toggleRecording()">Start Recording</button>
     </div>
   </div>
-  <div id="status"></div>
+    <div id="status"></div>
+    <audio id="audio-player" controls autoplay></audio>
 
   <script src="https://cdn.socket.io/4.3.1/socket.io.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-  <script>
-    // Your existing JavaScript code here
-  </script>
 </body>
 </html>
 
@@ -76,18 +73,36 @@
     let chunks = [];
     let selectedLanguage;
     let selectedTargetLanguage;
-
+    const audioPlayer = document.getElementById('audio-player');
+    var recording = false;
+    let clientId; 
     const socket = io();
 
-    socket.on('connect', () => {
-        console.log('Connected to server');
+    // Emit unique ID to the server on connection
+    socket.on('connect', function() {
+        clientId = socket.id;
+        socket.emit('new_user', { id: clientId });
+        console.log("Connected with ID:", clientId);
     });
 
     socket.on('response', function(response) {
         $('#status').append('<p>' + response + '</p>');
     });
 
+    function toggleRecording() {
+      if (recording) {
+        stopRecording();
+      } else {
+        startRecording();
+      }
+  
+      recording = !recording;
+      updateButton();
+    }
+  
+
 function startRecording() {
+  $('#status').append('<p>' + "Recording Started......" + '</p>');
   navigator.mediaDevices.getUserMedia({ audio: true })
     .then(function(stream) {
       mediaRecorder = new MediaRecorder(stream);
@@ -102,34 +117,54 @@ function startRecording() {
     });
 }
 
-function stopRecording() {
-  mediaRecorder.stop();
-}
 
-function sendAudio() {
-  if (chunks.length === 0) {
-    console.log("No recorded audio available.");
-    return;
-  }
+async function stopRecording() {
+  // Create a Promise wrapper for the mediaRecorder.stop() method
+  const stopPromise = new Promise((resolve, reject) => {
+    mediaRecorder.onstop = resolve;
+    mediaRecorder.onerror = reject;
+    mediaRecorder.stop();
+  });
 
-  const blob = new Blob(chunks, { type: "audio/webm" });
+  try {
+    // Await the resolution of the Promise
+    await stopPromise;
+    console.log("Recording stopped");
+    $('#status').append('<p>' + "Recording Stopped...." + '</p>');
+
+    // Check if there are any recorded audio chunks
+    if (chunks.length === 0) {
+      console.log("No recorded audio available.");
+      return;
+    }
+
+    // Do something with the recorded audio chunks
+    const blob = new Blob(chunks, { type: "audio/webm" });
 
   const formData = new FormData();
   formData.append("audio", blob);
   formData.append("language", selectedLanguage);
   formData.append("target_language", selectedTargetLanguage);
+  formData.append("clientId",clientId)
 
   fetch("/play_voice", {
     method: "POST",
     body: formData
   })
-  .then(function(response) {
-    console.log("Audio sent successfully!");
-    chunks = [];
+  .then(response => response.blob())
+  .then(blob => {
+      const audioURL = URL.createObjectURL(blob);
+      audioPlayer.src = audioURL;
+      audioPlayer.load();
+      audioPlayer.play();
   })
   .catch(function(error) {
     console.error("Error sending audio: " + error);
   });
+
+  } catch (error) {
+    console.error("Error stopping recording:", error);
+  }
 }
 
 document.getElementById("languageDropdown").addEventListener("change", function() {
@@ -139,5 +174,16 @@ document.getElementById("languageDropdown").addEventListener("change", function(
 document.getElementById("targetlanguageDropdown").addEventListener("change", function() {
     selectedTargetLanguage = this.value;
   });
+
+  function updateButton() {
+    var button = document.getElementById("recordBtn");
+    if (recording) {
+      button.innerHTML = "Stop Recording";
+      button.className = "btn btn-danger";
+    } else {
+      button.innerHTML = "Start Recording";
+      button.className = "btn btn-primary";
+    }
+  }
 
 </script>

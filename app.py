@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_file
 from flask_socketio import SocketIO
 import sounddevice as sd
 import wavio as wv
@@ -21,7 +21,6 @@ def index():
 @app.route('/start_recording', methods=['POST'])
 def start_recording():
     print('recording')
-    socketio.emit("record","Recording Started....")
     sampling_frequency=16000
     duration=5
     recording = sd.rec(int(duration * sampling_frequency),samplerate=sampling_frequency, channels=2)
@@ -31,36 +30,54 @@ def start_recording():
     playsound('./input_prompt.wav')
     return "Recording started"
 
+@socketio.on('new_user')
+def handle_new_user(data):
+    client_id = data['id']
+    print(f"New user connected with ID: {client_id}")
+
 @app.route('/play_voice', methods=['POST'])
 def play_voice():
     # Convert audio to text
+
+    input_language = request.form["language"]
+    target_language = request.form["target_language"]
+    clientID = request.form["clientId"]
+
     audio_file = request.files["audio"]
-    input_audio_path = './input_prompt.wav'
+    input_audio_path = clientID+'.wav'
 
     # Save the audio file
     audio_file.save(input_audio_path)
 
-    input_language = request.form["language"]
-    target_language = request.form["target_language"]
-    print(input_language)
+    print(clientID)
     print(target_language)
-    stt = json.loads(speech_to_text(input_language, input_audio_path))['transcript']
-    responseText = "Question : " + stt
-    socketio.emit("response", responseText)
+    try:
+        stt = json.loads(speech_to_text(input_language, input_audio_path))['transcript']
+        responseText = "Question : " + stt
+        socketio.emit("response", responseText,room=clientID)
+    except Exception as e:
+        error_message = "Speech To Text Error:"  + str(e)
+        print(error_message)
+        socketio.emit("response", error_message,room=clientID)
 
     # Translate to English
     src_language = input_language
     tgt_language = 'english'
     translation = mt(src_language, tgt_language, stt)
     responseText = "Question in English: " + translation
-    socketio.emit("response", responseText)
+    socketio.emit("response", responseText,room=clientID)
 
     # Get chatbot response
-    input_question = translation
-    chat_bot_response = chat_bot(input_question).strip()
-    print('Chatbot response:', chat_bot_response)
-    responseText = "Answer in English: " + chat_bot_response
-    socketio.emit("response", responseText)
+    try:
+        input_question = translation
+        chat_bot_response = chat_bot(input_question).strip()
+        print('Chatbot response:', chat_bot_response)
+        responseText = "Answer in English: " + chat_bot_response
+        socketio.emit("response", responseText,room=clientID)
+    except Exception as e:
+        error_message = "Chat GPT ResponseError:" + str(e)
+        print(+error_message)
+        socketio.emit("response", error_message,room=clientID)
 
     # Translate chatbot response
     src_language = 'english'
@@ -68,7 +85,7 @@ def play_voice():
     translation = mt(src_language, tgt_language, chat_bot_response)
     print('Translated chatbot response:', translation)
     responseText = "Answer in input language: " + translation
-    socketio.emit("response", responseText)
+    socketio.emit("response", responseText,room=clientID)
 
     # Capitalize the language string
     input_language = input_language.capitalize()
@@ -78,20 +95,18 @@ def play_voice():
     lang = target_language
     txt = translation
     output = text_to_speech(txt, gender, lang)['audio']
-    file_name = "tts.mp3"
+    file_name = clientID + ".mp3"
     wav_file = open(file_name, 'wb')
     decode_string = base64.b64decode(output)
     wav_file.write(decode_string)
     wav_file.close()
     print('Done converting to speech')
     responseText = "Done converting to speech" 
-    socketio.emit("response", responseText)
+    socketio.emit("response", responseText,room=clientID)
 
-    # Play the voice
-    playsound('./tts.mp3')
     print('Playing sound using playsound')
 
-    return "Voice played successfully."
+    return send_file(file_name, mimetype='audio/wav', as_attachment=False)
 
 
 # STT
@@ -130,7 +145,7 @@ def chat_bot(input_question):
 
     headers = {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer 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'
+    'Authorization': 'Bearer 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'
     }
 
     response = requests.request("POST", url, headers=headers, data=payload)
