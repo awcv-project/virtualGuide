@@ -1,0 +1,74 @@
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: ppC2T899XGJ1S011AAAB
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 1I42EAT0EsxsrzYXAAAD
+
+ Speech to Text Response: {"status":"success","time_taken":"0.87","transcript":"\u091a\u094c\u0915\u0932\u0947 \u091f\u093e\u0907\u0938 \u0915\u094d\u0930\u0940\u092e \u092c\u0928\u093e\u0928\u0947 \u0915\u0940 \u0935\u093f\u0927\u093f \u092c\u0924\u093e\u0913","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:03.800\n\u091a\u094c\u0915\u0932\u0947 \u091f\u093e\u0907\u0938 \u0915\u094d\u0930\u0940\u092e \u092c\u0928\u093e\u0928\u0947 \u0915\u0940 \u0935\u093f\u0927\u093f \u092c\u0924\u093e\u0913"}
+
+
+Machine Translation response:  {'mt_out': 'Describe the method of making chocolates.', 'status': 'success', 'transcript': 'चौकले टाइस क्रीम बनाने की विधि बताओ। '}
+
+Chatbot response:  {
+  "id": "cmpl-7PzzWNEQyOx2hBXXvlXlOtZXzTP22",
+  "object": "text_completion",
+  "created": 1686430850,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\n1. Begin by melting the chocolate. This can be done by using a double boiler or a microwave.\n\n2. Once the chocolate is melted, add any desired flavorings or ingredients such as nuts, dried fruit, or spices.\n\n3. Pour the melted chocolate into molds or onto a baking sheet lined with parchment paper.\n\n4. Place the molds or baking sheet in the refrigerator to cool and set.\n\n5. Once the chocolate is set,",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10,
+    "completion_tokens": 100,
+    "total_tokens": 110
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The Commission Start by melting the chocolate. This can be done by using a double boiler or a microwave Other Once the chocolate is melted, add any desired flavorings or ingredients such as nuts, dried fruit, or spices 3 Pour the melted chocolate into molds or onto a baking sheet lined with parchment paper 4 Place the molds or baking sheet in the refrigerator to cool and set The Commission Once the chocolate is set,', 'status': 'success', 'transcript': '1. Begin by melting the chocolate. This can be done by using a double boiler or a microwave.\n\n2. Once the chocolate is melted, add any desired flavorings or ingredients such as nuts, dried fruit, or spices.\n\n3. Pour the melted chocolate into molds or onto a baking sheet lined with parchment paper.\n\n4. Place the molds or baking sheet in the refrigerator to cool and set.\n\n5. Once the chocolate is set,'}
+
+TTS Response status:  success
+
+Client disconnected
+
+ Speech to Text Response: {"status":"success","time_taken":"0.65","transcript":"\u0935\u0947\u0932\u0915\u092e \u091f\u0942 \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.600\n\u0935\u0947\u0932\u0915\u092e \u091f\u0942 \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915"}
+
+
+Machine Translation response:  {'mt_out': 'Welcome to the Research Park.', 'status': 'success', 'transcript': 'वेलकम टू रिसर्च पार्क '}
+
+Chatbot response:  {
+  "id": "cmpl-7Q01cVdmklsXChk7E6bUcWxM8Qpas",
+  "object": "text_completion",
+  "created": 1686430980,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe Research Park is a vibrant community of research, innovation, and entrepreneurship located in the heart of the University of Illinois at Urbana-Champaign. The Park is home to over 150 companies, ranging from start-ups to Fortune 500 companies, and is a hub for collaboration between the university and the private sector. The Park is also home to the University of Illinois Research Park, a world-class research and development center. Here, companies have access to the university’s world",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 100,
+    "total_tokens": 106
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The Research Park is a vibrant community of research, innovation, and entrepreneurship located in the heart of the University of Illinois at Urbana-Champaign The Park is home to over 150 companies, ranging from start-ups to Fortune 500 companies, and is a hub for collaboration between the university and the private sector The Park is also home to the University of Illinois Research Park, a world-class research and development center Here, companies have access to the university world', 'status': 'success', 'transcript': 'The Research Park is a vibrant community of research, innovation, and entrepreneurship located in the heart of the University of Illinois at Urbana-Champaign. The Park is home to over 150 companies, ranging from start-ups to Fortune 500 companies, and is a hub for collaboration between the university and the private sector. The Park is also home to the University of Illinois Research Park, a world-class research and development center. Here, companies have access to the university’s world'}
+
+TTS Response status:  success

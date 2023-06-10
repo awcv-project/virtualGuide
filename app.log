@@ -1,0 +1,250 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: SBILhzj5Cbz1FKzKAAAB
+ * Serving Flask app 'app'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: FLJHUs5qlVPO1Sa2AAAB
+ * Serving Flask app 'app'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: XM16HJiL6Ev04HjLAAAB
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: uFRo7HIbh4NT5pCOAAAD
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: Ru2a8hOadRIAbEbuAAAF
+*************************************************************
+
+Client ID: Ru2a8hOadRIAbEbuAAAF  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.75","transcript":"current president of india","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.900\ncurrent president of india"}
+
+
+Machine Translation response:  {'mt_out': 'current president of india', 'status': 'success', 'transcript': 'current president of india'}
+
+Chatbot response:  {
+  "id": "cmpl-7PovfJlLDFzHWT3S9JUKHwwi8s0kJ",
+  "object": "text_completion",
+  "created": 1686388327,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current President of India is Ram Nath Kovind.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5,
+    "completion_tokens": 13,
+    "total_tokens": 18
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current President of India is Ram Nath Kovind.', 'status': 'success', 'transcript': 'The current President of India is Ram Nath Kovind.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: DMlrPmkmOTnzHtCjAAAH
+*************************************************************
+
+Client ID: DMlrPmkmOTnzHtCjAAAH  | Input Language:  english  | Target Language:  tamil
+
+ Speech to Text Response: {"status":"success","time_taken":"1.33","transcript":"hello how are you how can i get to write a Madras research park","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:04.500\nhello how are you how can i get to write a Madras research park"}
+
+
+Machine Translation response:  {'mt_out': 'How can I get to write a Madras research park', 'status': 'success', 'transcript': 'hello how are you how can i get to write a Madras research park'}
+
+Chatbot response:  {
+  "id": "cmpl-7PxEZf1BfdHqHrec6XxMUWsR31UD1",
+  "object": "text_completion",
+  "created": 1686420251,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "?\n\nIf you are interested in writing about Madras Research Park, you can start by researching the history of the park, its current activities, and its future plans. You can also look into the various research projects that have been conducted at the park, as well as the impact it has had on the local economy. Additionally, you can contact the park's management to learn more about their operations and to arrange interviews with key personnel. Finally, you can visit the park in person to get a",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11,
+    "completion_tokens": 100,
+    "total_tokens": 111
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'மத்ராஸ் ஆராய்ச்சி பூங்கா பற்றி எழுத நீங்கள் ஆர்வமாக இருந்தால், பூங்காவின் வரலாறு, அதன் தற்போதைய நடவடிக்கைகள் மற்றும் அதன் எதிர்கால திட்டங்களை ஆராய்ச்சி செய்வதன் மூலம் நீங்கள் தொடங்கலாம் பூங்காவில் மேற்கொள்ளப்பட்ட பல்வேறு ஆராய்ச்சித் திட்டங்களையும், அது உள்ளூர் பொருளாதாரத்தில் ஏற்படுத்திய தாக்கத்தையும் நீங்கள் பார்க்கலாம். கூடுதலாக, பூங்கா நிர்வாகத்தை நீங்கள் தொடர்புகொண்டு அவர்களின் செயல்பாடுகள் பற்றி மேலும் அறியவும் முக்கிய பணியாளர்களுடன் நேர்காணல்களை ஏற்பாடு செய்யவும் முடியும் இறுதியாக, நீங்கள் ஒரு பெற பூங்காவை நேரில் பார்வையிட முடியும் ', 'status': 'success', 'transcript': "?\n\nIf you are interested in writing about Madras Research Park, you can start by researching the history of the park, its current activities, and its future plans. You can also look into the various research projects that have been conducted at the park, as well as the impact it has had on the local economy. Additionally, you can contact the park's management to learn more about their operations and to arrange interviews with key personnel. Finally, you can visit the park in person to get a"}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client connected
+
+New user connected with ID: qCwzm3qMuI8iRbYGAAAB
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: JI8cvXa0n8iiFzxKAAAD
+*************************************************************
+
+Client ID: JI8cvXa0n8iiFzxKAAAD  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"1.32","transcript":"how many tribals are there in india man and ecobar islands","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:05.300\nhow many tribals are there in india\n\n00:00:05.300 --> 00:00:07.000\nman and ecobar islands"}
+
+
+Machine Translation response:  {'mt_out': 'How many tribes are there in India Man and Ecobar Islands', 'status': 'success', 'transcript': 'how many tribals are there in india man and ecobar islands'}
+
+Chatbot response:  {
+  "id": "cmpl-7PxJCFTfiJvtKYlDia77I7kErSKfW",
+  "object": "text_completion",
+  "created": 1686420538,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThere are over 500 tribes in India, including the Man and Ecobar Islands.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 12,
+    "completion_tokens": 18,
+    "total_tokens": 30
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'There are over 500 tribes in India, including the Isles of Man and Ecobar.', 'status': 'success', 'transcript': 'There are over 500 tribes in India, including the Man and Ecobar Islands.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+*************************************************************
+
+Client ID: JI8cvXa0n8iiFzxKAAAD  | Input Language:  hindi  | Target Language:  marathi
+
+ Speech to Text Response: {"status":"success","time_taken":"1.18","transcript":"\u0915\u093f\u0924\u0928\u0947 \u0906\u0926\u093f\u0935\u093e\u0938\u0940 \u0938\u092e\u0942\u0939 \u0939\u0948","vtt":"WEBVTT\n\n00:00:00.800 --> 00:00:05.600\n\u0915\u093f\u0924\u0928\u0947 \u0906\u0926\u093f\u0935\u093e\u0938\u0940 \u0938\u092e\u0942\u0939 \u0939\u0948"}
+
+
+Machine Translation response:  {'mt_out': 'How many tribal groups are there?', 'status': 'success', 'transcript': 'कितने आदिवासी समूह है? '}
+
+Chatbot response:  {
+  "id": "cmpl-7PxJe4QtSE8zwHe3diKuKwk4Q9XXc",
+  "object": "text_completion",
+  "created": 1686420566,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThere is no single answer to this question as the number of tribal groups varies depending on the region and country. According to the United Nations, there are an estimated 370 million indigenous people in the world, belonging to over 5,000 distinct tribal groups.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 52,
+    "total_tokens": 59
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'या प्रश्नाचे एकच उत्तर नाही कारण आदिवासी गटांची संख्या प्रदेश आणि देशांनुसार वेगवेगळी असते. संयुक्त राष्ट्रांच्या मते, जगात सुमारे 370 दशलक्ष स्वदेशी लोक आहेत, जे 5,000 पेक्षा जास्त वेगवेगळ्या आदिवासी गटांचे आहेत. ', 'status': 'success', 'transcript': 'There is no single answer to this question as the number of tribal groups varies depending on the region and country. According to the United Nations, there are an estimated 370 million indigenous people in the world, belonging to over 5,000 distinct tribal groups.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+*************************************************************
+
+Client ID: JI8cvXa0n8iiFzxKAAAD  | Input Language:  hindi  | Target Language:  marathi
+
+ Speech to Text Response: {"status":"success","time_taken":"1.44","transcript":"\u0905\u0902\u0921\u092e\u093e\u0928 \u0924\u0925\u093e \u0926\u094d\u0935\u0940\u092a \u0938\u092e\u0942\u0939 \u092e\u0947\u0902 \u0906\u0926\u093f\u0935\u093e\u0938\u0940 \u0938\u092e\u0942\u0939 \u0939\u0948","vtt":"WEBVTT\n\n00:00:00.100 --> 00:00:03.800\n\u0905\u0902\u0921\u092e\u093e\u0928 \u0924\u0925\u093e \u0926\u094d\u0935\u0940\u092a \u0938\u092e\u0942\u0939 \u092e\u0947\u0902\n\n00:00:03.800 --> 00:00:06.100\n\u0906\u0926\u093f\u0935\u093e\u0938\u0940 \u0938\u092e\u0942\u0939 \u0939\u0948"}
+
+
+Machine Translation response:  {'mt_out': 'Andaman and the islands have tribal groups.', 'status': 'success', 'transcript': 'अंडमान तथा द्वीप समूह में आदिवासी समूह है। '}
+
+Chatbot response:  {
+  "id": "cmpl-7PxKZTJ1a4fcgosl3F2i97cj0hHvp",
+  "object": "text_completion",
+  "created": 1686420623,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": " The main tribes are the Great Andamanese, the Jarawa, the Onge, the Sentinelese, and the Shompen. The Great Andamanese are the oldest inhabitants of the islands, and their population has decreased significantly due to contact with outsiders. The Jarawa are a hunter-gatherer tribe who live in the jungles of the islands. The Onge are a semi-nomadic tribe who live in the interior of the islands. The Sentinelese are an isolated tribe who",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9,
+    "completion_tokens": 100,
+    "total_tokens": 109
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'मुख्य जमाती म्हणजे ग्रेट अंडमान, झारवा, ओन्गे, सेन्टिनेलेझ आणि शोम्पेन. ग्रेट अंडमानिस हे या बेटांचे सर्वात जुने रहिवासी आहेत आणि त्यांच्या लोकसंख्येची संख्या बाहेरील लोकांशी संपर्क साधल्यामुळे लक्षणीय घट झाली आहे. झारवा हे एक शिकारी-संग्रहक जमात आहेत जे या बेटांच्या जंगलात राहतात. ओन्गे हे अर्ध-नॉमेडिक जमाती आहेत जे या बेटांच्या आत राहतात. सेन्टिनेलियन हे एक वेगळं जमात आहे. ', 'status': 'success', 'transcript': 'The main tribes are the Great Andamanese, the Jarawa, the Onge, the Sentinelese, and the Shompen. The Great Andamanese are the oldest inhabitants of the islands, and their population has decreased significantly due to contact with outsiders. The Jarawa are a hunter-gatherer tribe who live in the jungles of the islands. The Onge are a semi-nomadic tribe who live in the interior of the islands. The Sentinelese are an isolated tribe who'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: lME6EBFsj3ZC5CIRAAAB
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: ZKwd0vViZtVaCT6EAAAB
+
+Client disconnected
