@@ -72,3 +72,3406 @@ Chatbot response:  {
 Machine Translation response:  {'mt_out': 'The Research Park is a vibrant community of research, innovation, and entrepreneurship located in the heart of the University of Illinois at Urbana-Champaign The Park is home to over 150 companies, ranging from start-ups to Fortune 500 companies, and is a hub for collaboration between the university and the private sector The Park is also home to the University of Illinois Research Park, a world-class research and development center Here, companies have access to the university world', 'status': 'success', 'transcript': 'The Research Park is a vibrant community of research, innovation, and entrepreneurship located in the heart of the University of Illinois at Urbana-Champaign. The Park is home to over 150 companies, ranging from start-ups to Fortune 500 companies, and is a hub for collaboration between the university and the private sector. The Park is also home to the University of Illinois Research Park, a world-class research and development center. Here, companies have access to the university’s world'}
 
 TTS Response status:  success
+
+Client connected
+
+New user connected with ID: chtrRgHqkR6aN9OvAAAB
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: chtrRgHqkR6aN9OvAAAB  | Input Language:  english  | Target Language:  kannada
+
+ Speech to Text Response: {"status":"success","time_taken":"0.72","transcript":"hi how are you","vtt":"WEBVTT\n\n00:00:00.300 --> 00:00:02.200\nhi how are you"}
+
+
+Machine Translation response:  {'mt_out': 'Hi, how are you?', 'status': 'success', 'transcript': 'hi how are you'}
+
+Chat GPT ResponseError:'choices'
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: AjJYeDCDfAopY_UXAAAD
+
+Client connected
+
+New user connected with ID: WHq98J3TV1d7qfXVAAAF
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: WHq98J3TV1d7qfXVAAAF  | Input Language:  english  | Target Language:  tamil
+
+ Speech to Text Response: {"status":"success","time_taken":"0.63","transcript":"hi","vtt":"WEBVTT\n\n00:00:00.100 --> 00:00:01.600\nhi"}
+
+
+Machine Translation response:  {'mt_out': '- Hi. - What?', 'status': 'success', 'transcript': 'hi'}
+
+Chat GPT ResponseError:'choices'
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: pHtGpYPa4uFicJP9AAAH
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: pHtGpYPa4uFicJP9AAAH  | Input Language:  tamil  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.74","transcript":"\u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1","vtt":"WEBVTT\n\n00:00:00.200 --> 00:00:01.900\n\u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1"}
+
+
+Machine Translation response:  {'mt_out': 'How are you?', 'status': 'success', 'transcript': 'எப்படி இருக்கு? '}
+
+Chat GPT ResponseError:'choices'
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: KN3WkFMDImlmIyjxAAAJ
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: KN3WkFMDImlmIyjxAAAJ  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.60","transcript":"<Noise/>","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.600\n<Noise/>"}
+
+
+Machine Translation response:  {'mt_out': 'Noise', 'status': 'success', 'transcript': '<Noise/>'}
+
+Chat GPT ResponseError:'choices'
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: DwW18a_euQhS0rpXAAAL
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: DwW18a_euQhS0rpXAAAL  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.72","transcript":"age how are you","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.100\nage how are you"}
+
+
+Machine Translation response:  {'mt_out': 'How are you?', 'status': 'success', 'transcript': 'age how are you'}
+
+Chat GPT ResponseError:'choices'
+
+Client disconnected
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: U5L1mJpqPQMyLcokAAAB
+
+Client connected
+
+New user connected with ID: lVh6WmDWOZ7gyKfKAAAD
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: lVh6WmDWOZ7gyKfKAAAD  | Input Language:  english  | Target Language:  hindi
+
+ Speech to Text Response: {"status":"success","time_taken":"1.03","transcript":"hi chaje piti how are you","vtt":"WEBVTT\n\n00:00:00.600 --> 00:00:03.300\nhi chaje piti how are you"}
+
+
+Machine Translation response:  {'mt_out': 'Hi char charlie how are you', 'status': 'success', 'transcript': 'hi chaje piti how are you'}
+
+Chatbot response:  {
+  "id": "cmpl-7QSrGJIFt8DqazhhdchhEBjLIZvF9",
+  "object": "text_completion",
+  "created": 1686541814,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nI'm doing great, thank you for asking! How about you?",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 16,
+    "total_tokens": 23
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'मैं बहुत अच्छा कर रहा हूँ, पूछने के लिए धन्यवाद। ', 'status': 'success', 'transcript': "I'm doing great, thank you for asking! How about you?"}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: K66DKH7Y0ugc5WEIAAAB
+
+Client connected
+
+New user connected with ID: _t_zDyy8LCvzx5-VAAAD
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: VcRroNlPkG1oWnfFAAAF
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: VcRroNlPkG1oWnfFAAAF  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.75","transcript":"how are you","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.400\nhow are you"}
+
+
+Machine Translation response:  {'mt_out': 'How are you?', 'status': 'success', 'transcript': 'how are you'}
+
+Chatbot response:  {
+  "id": "cmpl-7QSrw0vdzvPp5Jekd3u1ayNt1WIAM",
+  "object": "text_completion",
+  "created": 1686541856,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nI'm doing well, thank you. How about you?",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4,
+    "completion_tokens": 14,
+    "total_tokens": 18
+  }
+}
+
+
+Machine Translation response:  {'mt_out': "I'm doing fine, thank you.", 'status': 'success', 'transcript': "I'm doing well, thank you. How about you?"}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: fRFDtm0u-BDolI12AAAH
+
+Client connected
+
+New user connected with ID: OLbyuWjfDps3W3TrAAAJ
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: OLbyuWjfDps3W3TrAAAJ  | Input Language:  english  | Target Language:  tamil
+
+ Speech to Text Response: {"status":"success","time_taken":"0.73","transcript":"I how are you","vtt":"WEBVTT\n\n00:00:00.300 --> 00:00:02.400\nI how are you"}
+
+
+Machine Translation response:  {'mt_out': 'How are you?', 'status': 'success', 'transcript': 'I how are you'}
+
+Chatbot response:  {
+  "id": "cmpl-7QTSYHZm51fNAwFsVcl4u0XLXZwei",
+  "object": "text_completion",
+  "created": 1686544126,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nI'm doing well, thank you. How about you?",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4,
+    "completion_tokens": 14,
+    "total_tokens": 18
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'நான் நன்றாக இருக்கிறேன், நன்றி. ', 'status': 'success', 'transcript': "I'm doing well, thank you. How about you?"}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 8pzZl5ZDkecE5CBcAAAL
+
+Client disconnected
+
+ Speech to Text Response: {"status":"success","time_taken":"263.57","transcript":"\u0935\u0947\u0932\u0915\u092e \u091f\u0942 \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.600\n\u0935\u0947\u0932\u0915\u092e \u091f\u0942 \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915"}
+
+
+Machine Translation response:  {'mt_out': 'Welcome to the Research Park.', 'status': 'success', 'transcript': 'वेलकम टू रिसर्च पार्क '}
+
+Chatbot response:  {
+  "id": "cmpl-7QVZvP6zybrqWGrXzVGnajHOcSLRi",
+  "object": "text_completion",
+  "created": 1686552271,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe Research Park is a vibrant community of innovators, entrepreneurs, and researchers located in the heart of the University of Illinois at Urbana-Champaign. We are home to over 200 companies, ranging from start-ups to Fortune 500 companies, and are a hub for research, innovation, and collaboration. Our mission is to foster an environment that encourages the development of new ideas, products, and services that will benefit society. We are committed to providing a supportive and collaborative environment for our",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 100,
+    "total_tokens": 106
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The Research Park is a vibrant community of innovators, entrepreneurs, and researchers located in the heart of the University of Illinois at Urbana-Champaign We are home to over 200 companies, ranging from start-ups to Fortune 500 companies, and are a hub for research, innovation, and collaboration Our mission is to foster an environment that encourages the development of new ideas, products and services that will benefit society We are committed to providing a supportive and collaborative environment for our', 'status': 'success', 'transcript': 'The Research Park is a vibrant community of innovators, entrepreneurs, and researchers located in the heart of the University of Illinois at Urbana-Champaign. We are home to over 200 companies, ranging from start-ups to Fortune 500 companies, and are a hub for research, innovation, and collaboration. Our mission is to foster an environment that encourages the development of new ideas, products, and services that will benefit society. We are committed to providing a supportive and collaborative environment for our'}
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: 1mD7JO5esKLoe8KVAAAB
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: 1mD7JO5esKLoe8KVAAAB  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.63","transcript":"8 low.","vtt":"WEBVTT\n\n00:00:00.100 --> 00:00:01.400\n8 low."}
+
+
+Machine Translation response:  {'mt_out': 'Eight low.', 'status': 'success', 'transcript': '8 low.'}
+
+Chatbot response:  {
+  "id": "cmpl-7QW58xC0zNfM9Dfb8zlQWDDL031oA",
+  "object": "text_completion",
+  "created": 1686554206,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nEight is the lowest card in a standard deck of playing cards.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3,
+    "completion_tokens": 15,
+    "total_tokens": 18
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'Eight is the lowest card in a standard deck of playing cards.', 'status': 'success', 'transcript': 'Eight is the lowest card in a standard deck of playing cards.'}
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: y1Y-i_tvSZ8aKyYfAAAD
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: y1Y-i_tvSZ8aKyYfAAAD  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.76","transcript":"where is IIT Madras research park","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.500\nwhere is IIT Madras research park"}
+
+
+Machine Translation response:  {'mt_out': 'Where is the research park of IIT Madras', 'status': 'success', 'transcript': 'where is IIT Madras research park'}
+
+Chatbot response:  {
+  "id": "cmpl-7QWEb7WFLh9Kx0czhDwDs8nKuXn8O",
+  "object": "text_completion",
+  "created": 1686554793,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "?\n\nThe IIT Madras Research Park is located in Taramani, Chennai, India.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10,
+    "completion_tokens": 21,
+    "total_tokens": 31
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The IIT Madras Research Park is located in Taramani, Chennai, India.', 'status': 'success', 'transcript': '?\n\nThe IIT Madras Research Park is located in Taramani, Chennai, India.'}
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 9rxe1UAAdZdejZ4kAAAF
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: 9rxe1UAAdZdejZ4kAAAF  | Input Language:  hindi  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"1.35","transcript":"\u0906\u0908\u0906\u0908\u091f\u0940 \u092e\u0921\u0930\u093e\u0938 \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0915\u0941\u091b \u092c\u0924\u093e\u0907\u090f","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:03.300\n\u0906\u0908\u0906\u0908\u091f\u0940 \u092e\u0921\u0930\u093e\u0938 \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0915\u0941\u091b \u092c\u0924\u093e\u0907\u090f"}
+
+
+Machine Translation response:  {'mt_out': 'Tell us about the IIT Madras Research Park.', 'status': 'success', 'transcript': 'आईआईटी मडरास रिसर्च पार्क के बारे में कुछ बताइए। '}
+
+Chatbot response:  {
+  "id": "cmpl-7QWFVIIHkvrKt4BIJRYThAZC0vtbt",
+  "object": "text_completion",
+  "created": 1686554849,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe IIT Madras Research Park (IITMRP) is an initiative of the Indian Institute of Technology Madras (IITM) to promote research and development activities in the areas of science and technology. It is a unique platform for industry-academia collaboration and provides a conducive environment for the development of innovative products and services. The IITMRP is a not-for-profit organization and is supported by the Government of India, the Government of Tamil Nadu, and",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11,
+    "completion_tokens": 100,
+    "total_tokens": 111
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The IIT Madras Research Park (IITMRP) is an initiative of the Indian Institute of Technology Madras (IITM) to promote research and development activities in the areas of science and technology. It is a unique platform for industry-academia collaboration and provides a conducive environment for the development of innovative products and services. The IITMRP is a non-profit organisation and is supported by the Government of India, the Government of Tamil Nadu, and the Government of India.', 'status': 'success', 'transcript': 'The IIT Madras Research Park (IITMRP) is an initiative of the Indian Institute of Technology Madras (IITM) to promote research and development activities in the areas of science and technology. It is a unique platform for industry-academia collaboration and provides a conducive environment for the development of innovative products and services. The IITMRP is a not-for-profit organization and is supported by the Government of India, the Government of Tamil Nadu, and'}
+
+Client connected
+
+New user connected with ID: yhFWfd5I7bFxI6SpAAAH
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: EHpS7jF_bj4_NnQKAAAJ
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: DxegaKtOIA9rAT3JAAAL
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: da901-MgQ1eoaOCdAAAN
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: HljJup9vRWK8Ld_cAAAP
+
+Client connected
+
+New user connected with ID: HxK9X0hZK3P4anlpAAAR
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: B-gsl7agvxdeD8feAAAT
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 2Lr15TCH-HaL6tBvAAAB
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: ugD8WipUyHpKHGMbAAAB
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: LNqZvf7oNrePl-NCAAAD
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: LNqZvf7oNrePl-NCAAAD  | Input Language:  english  | Target Language:  english
+
+Speech To Text Error:HTTPSConnectionPool(host='projects.respark.iitm.ac.in', port=1241): Max retries exceeded with url: /decode (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1131)')))
+
+Client connected
+
+New user connected with ID: 3BL3vUztQxa6XNdgAAAB
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 7LdR1CJbiRpJ4yxHAAAD
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: 7LdR1CJbiRpJ4yxHAAAD  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.65","transcript":"was alone","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.100\nwas alone"}
+
+
+Machine Translation response:  {'mt_out': 'I was alone.', 'status': 'success', 'transcript': 'was alone'}
+
+Chatbot response:  {
+  "id": "cmpl-7QWr9uAn9dqfqk6YkkhtvQeoGAsRi",
+  "object": "text_completion",
+  "created": 1686557183,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nIt depends on the context. If you are asking if you were alone in a physical sense, then the answer would be yes. If you are asking if you were alone in an emotional sense, then the answer would depend on the individual.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4,
+    "completion_tokens": 50,
+    "total_tokens": 54
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'It depends on the context If you are asking if you were alone in a physical sense, then the answer would be yes If you are asking if you were alone in an emotional sense, then the answer would depend on the individual', 'status': 'success', 'transcript': 'It depends on the context. If you are asking if you were alone in a physical sense, then the answer would be yes. If you are asking if you were alone in an emotional sense, then the answer would depend on the individual.'}
+
+TTS Response status:  success
+
+Client connected
+
+New user connected with ID: NlM3rt7gu0t4jAsiAAAB
+
+Client connected
+
+New user connected with ID: QfWWwYFoVq1838oLAAAB
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: rycjzgGfZgbMC4PDAAAD
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: rycjzgGfZgbMC4PDAAAD  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"1.04","transcript":"alone","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.700\nalone"}
+
+
+Machine Translation response:  {'mt_out': 'alone', 'status': 'success', 'transcript': 'alone'}
+
+Chatbot response:  {
+  "id": "cmpl-7QWsJrH88HQJHSp2KZaTHT2fWosZU",
+  "object": "text_completion",
+  "created": 1686557255,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "_mode\n\n#\n# This file contains the configuration settings for the standalone mode\n#\n\n#\n# The port that the standalone server will listen on\n#\nport=8080\n\n#\n# The context path of the application\n#\ncontext_path=/\n\n#\n# The directory that contains the web application files\n#\nwebapp_dir=webapps/ROOT\n\n#\n# The location of the log directory\n#\nlog_",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1,
+    "completion_tokens": 100,
+    "total_tokens": 101
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'This file contains the configuration settings for the standalone mode # # # The port that the standalone server will listen to on # port=8080 # # The context path of the application # context_path=/ # # The directory that contains the web application files # webapp_dir=webapps/ROOT # # The location of the log directory # log_', 'status': 'success', 'transcript': '_mode\n\n#\n# This file contains the configuration settings for the standalone mode\n#\n\n#\n# The port that the standalone server will listen on\n#\nport=8080\n\n#\n# The context path of the application\n#\ncontext_path=/\n\n#\n# The directory that contains the web application files\n#\nwebapp_dir=webapps/ROOT\n\n#\n# The location of the log directory\n#\nlog_'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: lbqlzzE3sw58nMnOAAAF
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: lbqlzzE3sw58nMnOAAAF  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.75","transcript":"hello","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.100\nhello"}
+
+
+Machine Translation response:  {'mt_out': '- What?', 'status': 'success', 'transcript': 'hello'}
+
+Chatbot response:  {
+  "id": "cmpl-7QWsivPl7N5U66kaBrSUnIeK3X6wl",
+  "object": "text_completion",
+  "created": 1686557280,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\n- I said, \"What?\"\n\nI asked if you wanted to go out for dinner.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3,
+    "completion_tokens": 22,
+    "total_tokens": 25
+  }
+}
+
+
+Machine Translation response:  {'mt_out': '- I said, "What?" I asked if you wanted to go out to dinner.', 'status': 'success', 'transcript': '- I said, "What?"\n\nI asked if you wanted to go out for dinner.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: lbqlzzE3sw58nMnOAAAF  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"1.99","transcript":"thanks for asking but i am already","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:04.300\nthanks for asking but i am already"}
+
+
+Machine Translation response:  {'mt_out': 'Thanks for asking but I already am', 'status': 'success', 'transcript': 'thanks for asking but i am already'}
+
+Chatbot response:  {
+  "id": "cmpl-7QWt2cEB9IhPFNlXkJNA2hXgI9Gij",
+  "object": "text_completion",
+  "created": 1686557300,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": ".\n\nThat's great to hear! It's important to take care of yourself and make sure you're feeling your best.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7,
+    "completion_tokens": 26,
+    "total_tokens": 33
+  }
+}
+
+
+Machine Translation response:  {'mt_out': "It's important to take care of yourself and make sure you're feeling your best.", 'status': 'success', 'transcript': ".\n\nThat's great to hear! It's important to take care of yourself and make sure you're feeling your best."}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+ Speech to Text Response: {"reason":"'NoneType' object has no attribute 'filename'","status":"failure"}
+
+
+ Speech to Text Response: {"reason":"'NoneType' object has no attribute 'filename'","status":"failure"}
+
+
+Client connected
+
+New user connected with ID: fmn4NWPG5ehQJzhzAAAH
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 0Cs8xiip4WrSoXlCAAAJ
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: BUaZqA3uzIZI2k9kAAAL
+
+Client connected
+
+New user connected with ID: YnjHje2zoiYFOM0CAAAN
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: YnjHje2zoiYFOM0CAAAN  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.71","transcript":"hello","vtt":"WEBVTT\n\n00:00:01.100 --> 00:00:02.200\nhello"}
+
+
+Machine Translation response:  {'mt_out': '- What?', 'status': 'success', 'transcript': 'hello'}
+
+Chatbot response:  {
+  "id": "cmpl-7QY41f8AOINu8v2tdEaJtgfXGrhPF",
+  "object": "text_completion",
+  "created": 1686561825,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\n- What?\n\n- What?\n\nI'm not sure what you're asking. Could you please clarify your question?",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3,
+    "completion_tokens": 28,
+    "total_tokens": 31
+  }
+}
+
+
+Machine Translation response:  {'mt_out': "I'm not sure what you're asking, could you please clarify your question?", 'status': 'success', 'transcript': "- What?\n\n- What?\n\nI'm not sure what you're asking. Could you please clarify your question?"}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client connected
+
+New user connected with ID: Yz1u8H8wCgoDzQfkAAAB
+
+Client connected
+
+New user connected with ID: _Smvr9wn0bP0EPIpAAAD
+
+ Speech to Text Response: {"status":"success","time_taken":"0.67","transcript":"\u0935\u0947\u0932\u0915\u092e \u091f\u0942 \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.600\n\u0935\u0947\u0932\u0915\u092e \u091f\u0942 \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915"}
+
+
+Machine Translation response:  {'mt_out': 'Welcome to the Research Park.', 'status': 'success', 'transcript': 'वेलकम टू रिसर्च पार्क '}
+
+Chatbot response:  {
+  "id": "cmpl-7QY4oW2C9hFDTIsCjGI0sALHxLTi6",
+  "object": "text_completion",
+  "created": 1686561874,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe Research Park is a vibrant community of research, innovation, and entrepreneurship located in the heart of the University of Illinois at Urbana-Champaign. We are home to over 200 companies, ranging from startups to Fortune 500 companies, and are dedicated to helping our tenants succeed. Our mission is to foster collaboration between the university and industry, and to create an environment that encourages innovation and economic growth. We offer a variety of services and resources to our tenants, including access to world-class",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 100,
+    "total_tokens": 106
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The Research Park is a vibrant community of research, innovation, and entrepreneurship located in the heart of the University of Illinois at Urbana-Champaign We are home to over 200 companies, ranging from startups to Fortune 500 companies, and are dedicated to helping our tenants succeed Our mission is to foster collaboration between the university and industry, and to create an environment that encourages innovation and economic growth We offer a variety of services and resources to our tenants, including access to world-class', 'status': 'success', 'transcript': 'The Research Park is a vibrant community of research, innovation, and entrepreneurship located in the heart of the University of Illinois at Urbana-Champaign. We are home to over 200 companies, ranging from startups to Fortune 500 companies, and are dedicated to helping our tenants succeed. Our mission is to foster collaboration between the university and industry, and to create an environment that encourages innovation and economic growth. We offer a variety of services and resources to our tenants, including access to world-class'}
+
+TTS Response status:  success
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+
+Client connected
+
+Client connected
+
+New user connected with ID: uAKLtLoKYiwf3tBeAAAB
+
+New user connected with ID: 8d4T7InVL3oRqyxzAAAD
+
+ Speech to Text Response: {"status":"success","time_taken":"0.67","transcript":"\u0935\u0947\u0932\u0915\u092e \u091f\u0942 \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.600\n\u0935\u0947\u0932\u0915\u092e \u091f\u0942 \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915"}
+
+
+Machine Translation response:  {'mt_out': 'Welcome to the Research Park.', 'status': 'success', 'transcript': 'वेलकम टू रिसर्च पार्क '}
+
+Chatbot response:  {
+  "id": "cmpl-7QY5vEnMizhjQpXeJH0lp95IgKLDv",
+  "object": "text_completion",
+  "created": 1686561943,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe Research Park is a vibrant community of innovators, entrepreneurs, and researchers. Located in the heart of the University of Illinois at Urbana-Champaign, the Research Park is home to more than 140 companies and organizations that are driving innovation and economic growth in the region. Our mission is to foster collaboration between the university and the business community, and to create an environment that encourages creativity and innovation. We provide a wide range of services and resources to help our tenants succeed, including access",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 6,
+    "completion_tokens": 100,
+    "total_tokens": 106
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The Research Park is a vibrant community of innovators, entrepreneurs and researchers Located in the heart of the University of Illinois at Urbana-Champaign, the Research Park is home to more than 140 companies and organizations that are driving innovation and economic growth in the region Our mission is to foster collaboration between the university and the business community, and to create an environment that encourages creativity and innovation We provide a wide range of services and resources to help our tenants succeed, including access to', 'status': 'success', 'transcript': 'The Research Park is a vibrant community of innovators, entrepreneurs, and researchers. Located in the heart of the University of Illinois at Urbana-Champaign, the Research Park is home to more than 140 companies and organizations that are driving innovation and economic growth in the region. Our mission is to foster collaboration between the university and the business community, and to create an environment that encourages creativity and innovation. We provide a wide range of services and resources to help our tenants succeed, including access'}
+
+TTS Response status:  success
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: zm8bKvv5__Bx3qg8AAAB
+
+Client connected
+
+New user connected with ID: QUc3h2O4uEZMFYKnAAAD
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: K4REUkT7VwwoDZA3AAAF
+
+Client connected
+
+New user connected with ID: ddNv-CnysvKrIcYOAAAH
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: NXkLjyhJfgzl9Gu-AAAJ
+
+Client connected
+
+New user connected with ID: aLufC1TLUb79WuhpAAAL
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: iR1-3BHQXP8Sizb8AAAN
+
+Client connected
+
+New user connected with ID: 8IvWCh7BWrEW1oy5AAAP
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: BNYmFJr8YOMmaDc-AAAR
+
+Client connected
+
+New user connected with ID: HWnHSwWGjnnEFuV1AAAT
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: rTXK4_5_Ab4imco7AAAV
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: zlSIznUqXN-tFdUNAAAX
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: emLRIcApBjtEp85rAAAZ
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: hiUQvI4uh3TUsbGMAAAb
+
+Client disconnected
+CombinedMultiDict([ImmutableMultiDict([]), ImmutableMultiDict([('wheelchair_id', '1'), ('source_language', 'english'), ('target_language', 'english')])])
+
+ Speech to Text Response: {"status":"success","time_taken":"2.93","transcript":"hello","vtt":"WEBVTT\n\n00:00:00.100 --> 00:00:01.100\nhello"}
+
+
+Machine Translation response:  {'mt_out': '- What?', 'status': 'success', 'transcript': 'hello'}
+
+Chatbot response:  {
+  "id": "cmpl-7QYe8p1l27ah2EKmBOZ3IkJ0mx4NL",
+  "object": "text_completion",
+  "created": 1686564064,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\n- I said, \"What?\"\n\nYou asked me what I said. I said, \"I said, 'What?'\"",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3,
+    "completion_tokens": 28,
+    "total_tokens": 31
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'I said, "What?" You asked me what I said.', 'status': 'success', 'transcript': '- I said, "What?"\n\nYou asked me what I said. I said, "I said, \'What?\'"'}
+
+TTS Response status:  success
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: HJIChMrMRkTDDP0CAAAB
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: lGwWPaGg6XuT-41SAAAB
+
+ Speech to Text Response: {"status":"success","time_taken":"0.90","transcript":"who is the current president of i i t madras research park","vtt":"WEBVTT\n\n00:00:00.300 --> 00:00:04.200\nwho is the current president of i i t madras research park"}
+
+
+Machine Translation response:  {'mt_out': 'who is the current president of iT Madras Research Park', 'status': 'success', 'transcript': 'who is the current president of i i t madras research park'}
+
+Chatbot response:  {
+  "id": "cmpl-7R3mjxegSapXG1hLhwSZH2K6JXwgc",
+  "object": "text_completion",
+  "created": 1686683761,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current President of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 893,
+    "completion_tokens": 24,
+    "total_tokens": 917
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current President of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.', 'status': 'success', 'transcript': 'The current President of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.'}
+
+TTS Response status:  success
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: QUbJ8ObABvkBiCZGAAAD
+
+ Speech to Text Response: {"status":"success","time_taken":"1.05","transcript":"tell me about the latest train accident that happened in odisha","vtt":"WEBVTT\n\n00:00:00.100 --> 00:00:05.100\ntell me about the latest train accident that happened in odisha"}
+
+
+Machine Translation response:  {'mt_out': 'Tell me about the latest train accident that happened in Odisha', 'status': 'success', 'transcript': 'tell me about the latest train accident that happened in odisha'}
+
+Chatbot response:  {
+  "id": "cmpl-7R3n5XVgkLewl8v7c2YEQ45jB4K7q",
+  "object": "text_completion",
+  "created": 1686683783,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nOn June 2, 2021, a tragic train accident occurred in Balasore district of Odisha. The accident involved three trains - the Coromandel Express, the Puri-Haridwar Utkal Express, and a goods train. The Coromandel Express derailed and collided with the other two trains, resulting in the death of at least 289 people and injuring over 800. The cause of the accident is still under investigation, but preliminary reports suggest that there was an issue with the",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 713,
+    "completion_tokens": 100,
+    "total_tokens": 813
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'On June 2, 2021, a tragic train accident occurred in Balasore district of Odisha. The accident involved three trains - the Coromandel Express, the Puri-Haridwar Utkal Express, and a freight train The Coromandel Express derailed and collided with the other two trains, resulting in the death of at least 289 people and injuring over 800 The cause of the accident is still under investigation, but preliminary reports suggest that there was a problem with the', 'status': 'success', 'transcript': 'On June 2, 2021, a tragic train accident occurred in Balasore district of Odisha. The accident involved three trains - the Coromandel Express, the Puri-Haridwar Utkal Express, and a goods train. The Coromandel Express derailed and collided with the other two trains, resulting in the death of at least 289 people and injuring over 800. The cause of the accident is still under investigation, but preliminary reports suggest that there was an issue with the'}
+
+TTS Response status:  success
+
+Client disconnected
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+Automatic Speech Recognition Error
+
+ Speech to Text Response: {"status":"success","time_taken":"0.63","transcript":"who is the president of r k","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.800\nwho is the president of r k"}
+
+
+Machine Translation response:  {'mt_out': 'who is the president of r k', 'status': 'success', 'transcript': 'who is the president of r k'}
+
+Chatbot response:  {
+  "id": "cmpl-7R3q0vqfXRe1havI0B0IUgS0Jjt6v",
+  "object": "text_completion",
+  "created": 1686683964,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current President of Ramakrishna Mission is Swami Smaranananda (born 1929). He is a senior monk of the Ramakrishna Math and Ramakrishna Mission, and is its 16th president.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 823,
+    "completion_tokens": 48,
+    "total_tokens": 871
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current President of Ramakrishna Mission is Swami Smaranananda (born 1929). He is a senior monk of the Ramakrishna Math and Ramakrishna Mission, and is its 16th president.', 'status': 'success', 'transcript': 'The current President of Ramakrishna Mission is Swami Smaranananda (born 1929). He is a senior monk of the Ramakrishna Math and Ramakrishna Mission, and is its 16th president.'}
+
+TTS Response status:  success
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+Automatic Speech Recognition Error
+
+ Speech to Text Response: {"status":"success","time_taken":"0.82","transcript":"were the death toll in the","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.700\nwere the death toll in the"}
+
+
+Machine Translation response:  {'mt_out': 'were the death toll in the', 'status': 'success', 'transcript': 'were the death toll in the'}
+
+Chatbot response:  {
+  "id": "cmpl-7R3qloxVnjgr0mFjIywlyc47dyqtb",
+  "object": "text_completion",
+  "created": 1686684011,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe exact death toll from COVID-19 is difficult to determine as it is constantly changing. As of June 13, 2021, the Worldometer website reported that there have been 6,890,605 deaths due to COVID-19 worldwide.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 862,
+    "completion_tokens": 52,
+    "total_tokens": 914
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The exact death toll from COVID-19 is difficult to determine as it is constantly changing As of June 13, 2021, the Worldometer website reported that there have been 6,890,605 deaths due to COVID-19 worldwide', 'status': 'success', 'transcript': 'The exact death toll from COVID-19 is difficult to determine as it is constantly changing. As of June 13, 2021, the Worldometer website reported that there have been 6,890,605 deaths due to COVID-19 worldwide.'}
+
+TTS Response status:  success
+
+Client connected
+
+New user connected with ID: dNGcJP8RRH2B5IsIAAAB
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+Automatic Speech Recognition Error
+
+ Speech to Text Response: {"status":"success","time_taken":"0.76","transcript":"resident of iit madras research park","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:03.500\nresident of iit madras research park"}
+
+
+Machine Translation response:  {'mt_out': 'resident of the IIT Madras Research Park', 'status': 'success', 'transcript': 'resident of iit madras research park'}
+
+Chatbot response:  {
+  "id": "cmpl-7R3xMN80WKUCCcQVmpcl1UwuLB4Jk",
+  "object": "text_completion",
+  "created": 1686684420,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe IIT Madras Research Park is a research institute located in Chennai, Tamil Nadu. It is India's first university-based research park and offers plug-and-play facilities for corporate R&D work. It is home to a number of companies, including startups, and provides a platform for innovation and collaboration. The park is managed by the IIT Madras Incubation Cell, which provides mentorship and support to startups. It also houses the IIT-M Incubation Cell, which acts as a 'mother incubator' to other incubators including Pravartak, Rural Technology and Business Incubator, and the IIT Madras Technology Business Incubator. The park also offers a range of events",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 940,
+    "completion_tokens": 150,
+    "total_tokens": 1090
+  }
+}
+
+
+Machine Translation response:  {'mt_out': "The IIT Madras Research Park is a research institute located in Chennai, Tamil Nadu It is India's first university-based research park and offers plug-and-play facilities for corporate R&D work It is home to a number of companies, including start-ups, and provides a platform for innovation and collaboration. The park is managed by the IIT Madras Incubation Cell, which provides mentorship and support to startups It also houses the IIT-M Incubation Cell, which acts as a'mother incubator' for other incubators including Pravartak, Rural Technology and Business Incubator, and the IIT Madras Technology Business Incubator The park also offers a range of events", 'status': 'success', 'transcript': "The IIT Madras Research Park is a research institute located in Chennai, Tamil Nadu. It is India's first university-based research park and offers plug-and-play facilities for corporate R&D work. It is home to a number of companies, including startups, and provides a platform for innovation and collaboration. The park is managed by the IIT Madras Incubation Cell, which provides mentorship and support to startups. It also houses the IIT-M Incubation Cell, which acts as a 'mother incubator' to other incubators including Pravartak, Rural Technology and Business Incubator, and the IIT Madras Technology Business Incubator. The park also offers a range of events"}
+
+TTS Response status:  success
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: OlgK760Q6RSEikLHAAAD
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: Js_S_fT2IMMYtUpHAAAF
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: Js_S_fT2IMMYtUpHAAAF  | Input Language:  english  | Target Language:  tamil
+
+ Speech to Text Response: {"status":"success","time_taken":"1.29","transcript":"IIT Madras research park has a company called to health that company tell us something about","vtt":"WEBVTT\n\n00:00:00.800 --> 00:00:05.300\nIIT Madras research park has a company called\n\n00:00:05.300 --> 00:00:09.600\nto health that company tell us something about"}
+
+
+Machine Translation response:  {'mt_out': 'IIT Madras research park has a company called to health that company tell us something about', 'status': 'success', 'transcript': 'IIT Madras research park has a company called to health that company tell us something about'}
+
+Chatbot response:  {
+  "id": "cmpl-7RBJ6HRdoQ963udoKizEjcs3hj1UD",
+  "object": "text_completion",
+  "created": 1686712676,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nTo Health is a healthcare startup incubated at IIT Madras Research Park. It is a healthcare technology company that is focused on developing innovative solutions to improve healthcare delivery. The company is working on developing a platform that will enable healthcare providers to deliver personalized care to their patients. The platform will enable healthcare providers to access patient data, track patient progress, and provide personalized care. The platform will also enable healthcare providers to collaborate with other healthcare providers and access data from other healthcare providers. The company is also working on developing a mobile application that will enable patients to access their health records and track their progress.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 844,
+    "completion_tokens": 122,
+    "total_tokens": 966
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'ஐஐடி மத்ராஸ் ஆராய்ச்சி பூங்காவில் தொடங்கப்பட்ட சுகாதார நிறுவனம். இது ஒரு சுகாதார தொழில்நுட்ப நிறுவனமாகும், இது சுகாதார சேவைகளை மேம்படுத்துவதற்கான புதுமையான தீர்வுகளை உருவாக்குவதில் கவனம் செலுத்துகிறது. நிறுவனம் ஒரு தளத்தை உருவாக்குவதில் பணியாற்றி வருகிறது, இது சுகாதார வழங்குநர்கள் தங்கள் நோயாளிகளுக்கு தனிப்பயனாக்கப்பட்ட கவனிப்பை வழங்க உதவும். இந்த தளம் சுகாதார வழங்குநர்களுக்கு நோயாளிகளின் தரவை அணுகவும், நோயாளிகளின் முன்னேற்றத்தை கண்காணிக்கவும், தனிப்பயனாக்கப்பட்ட பராமரிப்பை. வழங்கவும் உதவும் இந்தத் தளம். சுகாதார வழங்குநர்களுடன் ஒத்துழைக்கவும், மற்ற சுகாதார வழங்குநர்களிடமிருந்து தரவை. அணுகவும் உதவும். நோயாளிகள் தங்கள் மருத்துவ பதிவுகளை அணுகவும் அவர்களின் முன்னேற்றத்தை கண்காணிக்கவும் உதவும் ஒரு மொபைல் பயன்பாட்டை உருவாக்குவதற்கும் நிறுவனம் செயல்பட்டு வருகிறது ', 'status': 'success', 'transcript': 'To Health is a healthcare startup incubated at IIT Madras Research Park. It is a healthcare technology company that is focused on developing innovative solutions to improve healthcare delivery. The company is working on developing a platform that will enable healthcare providers to deliver personalized care to their patients. The platform will enable healthcare providers to access patient data, track patient progress, and provide personalized care. The platform will also enable healthcare providers to collaborate with other healthcare providers and access data from other healthcare providers. The company is also working on developing a mobile application that will enable patients to access their health records and track their progress.'}
+
+Client disconnected
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client connected
+
+New user connected with ID: hRlPmdHvUTeBz_fjAAAH
+
+Client connected
+
+New user connected with ID: lkzoL_PNz900779cAAAJ
+<FileStorage: 'blob' ('audio/webm')>
+*************************************************************
+
+Client ID: lkzoL_PNz900779cAAAJ  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"2.29","transcript":"who is the current president of i i t madras research park","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:03.700\nwho is the current president of i i t madras research park"}
+
+
+Machine Translation response:  {'mt_out': 'who is the current president of iT Madras Research Park', 'status': 'success', 'transcript': 'who is the current president of i i t madras research park'}
+
+Chatbot response:  {
+  "id": "cmpl-7RBOMCgtMBkhpvipyH3r3TiM0u8Hk",
+  "object": "text_completion",
+  "created": 1686713002,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current President of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 960,
+    "completion_tokens": 24,
+    "total_tokens": 984
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current President of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.', 'status': 'success', 'transcript': 'The current President of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client connected
+
+New user connected with ID: N2r1Sp2RPIRyOjAYAAAB
+
+Client connected
+
+New user connected with ID: fXsTI0Blbmn2wjYkAAAD
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: xIou0CgRsFnxXRqdAAAB
+*************************************************************
+
+Client ID: xIou0CgRsFnxXRqdAAAB  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"1.01","transcript":"who is the current president of i i t madras research park","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:04.500\nwho is the current president of i i t madras research park"}
+
+
+Machine Translation response:  {'mt_out': 'who is the current president of iT Madras Research Park', 'status': 'success', 'transcript': 'who is the current president of i i t madras research park'}
+
+Chatbot response:  {
+  "id": "cmpl-7VXLlNRw4roOKOtWGyeadPx3lhQE1",
+  "object": "text_completion",
+  "created": 1687750721,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala. He is also the President of IITM Incubation Cell and RTBI (IITM's Rural Technology and Business Incubator).",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 885,
+    "completion_tokens": 53,
+    "total_tokens": 938
+  }
+}
+
+
+Machine Translation response:  {'mt_out': "The current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala. He is also the President of IITM Incubation Cell and RTBI (IITM's Rural Technology and Business Incubator).", 'status': 'success', 'transcript': "The current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala. He is also the President of IITM Incubation Cell and RTBI (IITM's Rural Technology and Business Incubator)."}
+
+Client connected
+
+New user connected with ID: f8ztcNanEzHKSzDNAAAB
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 6c0_dUcDqFdbgAxDAAAD
+*************************************************************
+
+Client ID: 6c0_dUcDqFdbgAxDAAAD  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.99","transcript":"who is the current president of i i t madras research park","vtt":"WEBVTT\n\n00:00:00.600 --> 00:00:04.900\nwho is the current president of i i t madras research park"}
+
+
+Machine Translation response:  {'mt_out': 'who is the current president of iT Madras Research Park', 'status': 'success', 'transcript': 'who is the current president of i i t madras research park'}
+
+Chatbot response:  {
+  "id": "cmpl-7VXMbqW4lng0eQn66t0B1WXTZB7CX",
+  "object": "text_completion",
+  "created": 1687750773,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 950,
+    "completion_tokens": 24,
+    "total_tokens": 974
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.', 'status': 'success', 'transcript': 'The current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+*************************************************************
+
+Client ID: 6c0_dUcDqFdbgAxDAAAD  | Input Language:  hindi  | Target Language:  hindi
+
+ Speech to Text Response: {"status":"success","time_taken":"1.20","transcript":"\u0906\u0908\u0906\u0908\u091f\u0940 \u092e\u0926\u094d\u0930\u093e\u0938 \u0915\u093e \u092a\u094d\u0930\u0947\u0938\u093f\u0921\u0947\u0902\u091f \u0915\u094c\u0928 \u0939\u0948","vtt":"WEBVTT\n\n00:00:00.200 --> 00:00:06.400\n\u0906\u0908\u0906\u0908\u091f\u0940 \u092e\u0926\u094d\u0930\u093e\u0938 \u0915\u093e \u092a\u094d\u0930\u0947\u0938\u093f\u0921\u0947\u0902\u091f \u0915\u094c\u0928 \u0939\u0948"}
+
+
+Machine Translation response:  {'mt_out': 'Who is the President of IIT Madras?', 'status': 'success', 'transcript': 'आईआईटी मद्रास का प्रेसिडेंट कौन है? '}
+
+Chatbot response:  {
+  "id": "cmpl-7VXN8rHdLQIcbcTSZCIpy0xLjzamW",
+  "object": "text_completion",
+  "created": 1687750806,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current director (appointed in 2022) is Kamakoti Veezhinathan, who obtained his Ph.D. and M.S in CSE from IIT Madras.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 949,
+    "completion_tokens": 39,
+    "total_tokens": 988
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'वर्तमान निदेशक (2022 में नियुक्त) कामकोटी वीजीनथन हैं, जिन्होंने आईआईटी मद्रास से सीएसई में पीएचडी और एमएस प्राप्त किया है। ', 'status': 'success', 'transcript': 'The current director (appointed in 2022) is Kamakoti Veezhinathan, who obtained his Ph.D. and M.S in CSE from IIT Madras.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+*************************************************************
+
+Client ID: 6c0_dUcDqFdbgAxDAAAD  | Input Language:  hindi  | Target Language:  hindi
+
+ Speech to Text Response: {"status":"success","time_taken":"1.19","transcript":"\u0906\u0908\u0906\u0908\u091f\u0940 \u092e\u091f\u0930\u093e \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915 \u0915\u093e \u092a\u094d\u0930\u0947\u0938\u093f\u0921\u0947\u0902\u091f \u0915\u094c\u0928 \u0939\u0948","vtt":"WEBVTT\n\n00:00:00.100 --> 00:00:04.500\n\u0906\u0908\u0906\u0908\u091f\u0940 \u092e\u091f\u0930\u093e \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915 \u0915\u093e \u092a\u094d\u0930\u0947\u0938\u093f\u0921\u0947\u0902\u091f \u0915\u094c\u0928 \u0939\u0948"}
+
+
+Machine Translation response:  {'mt_out': 'Who is the President of IIT Matra Research Park?', 'status': 'success', 'transcript': 'आईआईटी मटरा रिसर्च पार्क का प्रेसिडेंट कौन है? '}
+
+Chatbot response:  {
+  "id": "cmpl-7VXNfNlA1QGzJ47vKga4tbKdGZ0VG",
+  "object": "text_completion",
+  "created": 1687750839,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe President of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 890,
+    "completion_tokens": 23,
+    "total_tokens": 913
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'आईआईटी मद्रास रिसर्च पार्क के अध्यक्ष प्रोफेसर अशोक झुंझुनवाला हैं। ', 'status': 'success', 'transcript': 'The President of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+ Speech to Text Response: {"status":"success","time_taken":"0.86","transcript":"p t madras ka varsamant president kaun hai","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:03.500\np t madras ka varsamant president kaun hai"}
+
+
+Machine Translation response:  {'mt_out': 'P t madras ka varsamant president kaun hai', 'status': 'success', 'transcript': 'p t madras ka varsamant president kaun hai'}
+
+Chatbot response:  {
+  "id": "cmpl-7VXOL0c90gDUMFJp0c1qoZqAHm3kx",
+  "object": "text_completion",
+  "created": 1687750881,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nभारत के राष्ट्रपति की वेबसाइट में आपका स्वागत है - The President of India राष्ट्रपत",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2156,
+    "completion_tokens": 99,
+    "total_tokens": 2255
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'Welcome to the website of the President of India - The President of India Rashtrapati', 'status': 'success', 'transcript': 'भारत के राष्ट्रपति की वेबसाइट में आपका स्वागत है - The President of India राष्ट्रपत'}
+
+TTS Response status:  success
+
+Client disconnected
+
+ Speech to Text Response: {"status":"success","time_taken":"0.95","transcript":"iit madras research park the president on her","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:04.300\niit madras research park the president on her"}
+
+
+Machine Translation response:  {'mt_out': "I'm a Madras research park the president on her", 'status': 'success', 'transcript': 'iit madras research park the president on her'}
+
+Chatbot response:  {
+  "id": "cmpl-7VXOmhfwBZRmFb5shCdXbH7g0gfmI",
+  "object": "text_completion",
+  "created": 1687750908,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nI am the President of IIT Madras Research Park. I am responsible for the overall management and operations of the research park. I am also responsible for developing and implementing strategies to promote the research park and its activities. I work closely with the faculty, staff, and students of IIT Madras to ensure that the research park is a vibrant and successful hub for innovation and research. I also work with industry partners to ensure that the research park is a platform for collaboration and knowledge sharing.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1012,
+    "completion_tokens": 100,
+    "total_tokens": 1112
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'I am the President of IIT Madras Research Park I am responsible for the overall management and operations of the research park I am also responsible for developing and implementing strategies to promote the research park and its activities I work closely with the faculty, staff and students of IIT Madras to ensure that the research park is a vibrant and successful hub for innovation and research I also work with industry partners to ensure that the research park is a platform for collaboration and knowledge sharing', 'status': 'success', 'transcript': 'I am the President of IIT Madras Research Park. I am responsible for the overall management and operations of the research park. I am also responsible for developing and implementing strategies to promote the research park and its activities. I work closely with the faculty, staff, and students of IIT Madras to ensure that the research park is a vibrant and successful hub for innovation and research. I also work with industry partners to ensure that the research park is a platform for collaboration and knowledge sharing.'}
+
+TTS Response status:  success
+
+ Speech to Text Response: {"status":"success","time_taken":"1.13","transcript":"who is the current resident of i i t madras research park","vtt":"WEBVTT\n\n00:00:01.700 --> 00:00:06.700\nwho is the current resident of i i t madras research park"}
+
+
+Machine Translation response:  {'mt_out': 'who is the current resident of i i t Madras Research Park', 'status': 'success', 'transcript': 'who is the current resident of i i t madras research park'}
+
+Chatbot response:  {
+  "id": "cmpl-7VXQ1nfZ30sOEQOsoRLviWqHZZZuM",
+  "object": "text_completion",
+  "created": 1687750985,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current resident of IIT Madras Research Park is Prof. Ashok Jhunjhunwala. He is the President of IIT Madras Research Park and IITM Incubation Cell.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 974,
+    "completion_tokens": 44,
+    "total_tokens": 1018
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current resident of IIT Madras Research Park is Professor Ashok Jhunjhunwala.', 'status': 'success', 'transcript': 'The current resident of IIT Madras Research Park is Prof. Ashok Jhunjhunwala. He is the President of IIT Madras Research Park and IITM Incubation Cell.'}
+
+TTS Response status:  success
+
+Client connected
+
+New user connected with ID: EyRqtIJn8i624SjUAAAF
+*************************************************************
+
+Client ID: EyRqtIJn8i624SjUAAAF  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.73","transcript":"please tell me the today news of Chennai","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:04.400\nplease tell me the today news of Chennai"}
+
+
+Machine Translation response:  {'mt_out': 'Please tell me the news of Chennai today', 'status': 'success', 'transcript': 'please tell me the today news of Chennai'}
+
+Chatbot response:  {
+  "id": "cmpl-7VXxxiFB9h6LrHgVQxnuQ1OyeiFx6",
+  "object": "text_completion",
+  "created": 1687753089,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nToday, Chennai is experiencing a short spell of rain, with steps being taken to fix roads in Madipakkam. Five people have been arrested for abducting a Tamil rapper in Chennai. Pre-monsoon showers have been forecasted for the city. Schools and colleges in Chennai are closed due to the COVID-19 pandemic. The Greater Chennai Police are on duty throughout the night to protect citizens and help in case of an emergency. The Tamil Nadu government has achieved an incredible",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2074,
+    "completion_tokens": 100,
+    "total_tokens": 2174
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'Today, Chennai is experiencing a brief period of rain, with steps being taken to fix roads in Madipakkam Five people have been arrested for kidnapping a Tamil rapper in Chennai Pre-monsoon showers have been forecast for the city Schools and colleges in Chennai are closed due to the COVID-19 pandemic The Greater Chennai Police are on duty all night to protect citizens and help in case of an emergency The Tamil Nadu government has achieved an incredible', 'status': 'success', 'transcript': 'Today, Chennai is experiencing a short spell of rain, with steps being taken to fix roads in Madipakkam. Five people have been arrested for abducting a Tamil rapper in Chennai. Pre-monsoon showers have been forecasted for the city. Schools and colleges in Chennai are closed due to the COVID-19 pandemic. The Greater Chennai Police are on duty throughout the night to protect citizens and help in case of an emergency. The Tamil Nadu government has achieved an incredible'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: -NehmqhlpFeKLsN3AAAH
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: TjW2scmVdUIdJNB7AAAJ
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: GBbATlslh7CnrgLDAAAP
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 3O7mH8Hph3ZsUa7cAAAi
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: zQRd1OL6tetvdxyMAAAk
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: p0Kg77kBGzYs5YENAAAm
+
+ Speech to Text Response: {"status":"success","time_taken":"0.48","transcript":"i have a youth","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.300\ni have a youth"}
+
+
+Machine Translation response:  {'mt_out': 'I have a youth', 'status': 'success', 'transcript': 'i have a youth'}
+
+Chatbot response:  {
+  "id": "cmpl-7VcTuaJ3IIKW2AJHgyVbNQ8UtLQyY",
+  "object": "text_completion",
+  "created": 1687770446,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 783,
+    "total_tokens": 783
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The first', 'status': 'success', 'transcript': ''}
+
+TTS Response status:  success
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: nf-mZR6fp2k6yIMQAAAp
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: xlHKi4gg-OWS4v5fAAAr
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: tw8W152WpcGGQJg7AAAt
+
+Client disconnected
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+Automatic Speech Recognition Error
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+Automatic Speech Recognition Error
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+Automatic Speech Recognition Error
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+Automatic Speech Recognition Error
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+Automatic Speech Recognition Error
+
+Client connected
+
+New user connected with ID: RT3fQRpHgR8VL5wOAAAv
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: j26gWht7ywV0eRp-AAAx
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: kjjicCGYfR0x7eQhAAB1
+
+Client connected
+
+New user connected with ID: ng6X6QKVEjxXLi9uAAB3
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: OgA7jr1zwc4lOnHwAAB5
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: F9VYGgBsDV9rdFhSAAB7
+*************************************************************
+
+Client ID: F9VYGgBsDV9rdFhSAAB7  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.81","transcript":"who is the current President of IIT Madras.","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:03.400\nwho is the current President of IIT Madras."}
+
+
+Machine Translation response:  {'mt_out': 'who is the current President of IIT Madras.', 'status': 'success', 'transcript': 'who is the current President of IIT Madras.'}
+
+Chatbot response:  {
+  "id": "cmpl-7VtarURw0Eig5aoLADckJwn1FKfGm",
+  "object": "text_completion",
+  "created": 1687836225,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current President of IIT Madras is Dr. Pawan Goenka.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 924,
+    "completion_tokens": 19,
+    "total_tokens": 943
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current President of IIT Madras is Dr. Pawan Goenka.', 'status': 'success', 'transcript': 'The current President of IIT Madras is Dr. Pawan Goenka.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: V9Gtvlw2-x2rmUz2AAB9
+*************************************************************
+
+Client ID: V9Gtvlw2-x2rmUz2AAB9  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.96","transcript":"who is the current president of i i t madras research park","vtt":"WEBVTT\n\n00:00:00.200 --> 00:00:04.300\nwho is the current president of i i t madras research park"}
+
+
+Machine Translation response:  {'mt_out': 'who is the current president of iT Madras Research Park', 'status': 'success', 'transcript': 'who is the current president of i i t madras research park'}
+
+Chatbot response:  {
+  "id": "cmpl-7Vtbk4T6f5E8omyR38GXY0keCqvMz",
+  "object": "text_completion",
+  "created": 1687836280,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 982,
+    "completion_tokens": 24,
+    "total_tokens": 1006
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.', 'status': 'success', 'transcript': 'The current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+Automatic Speech Recognition Error
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+Automatic Speech Recognition Error
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+Automatic Speech Recognition Error
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+Automatic Speech Recognition Error
+
+ Speech to Text Response: {"status":"success","time_taken":"0.44","transcript":"no book people","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.500\nno book people"}
+
+
+Machine Translation response:  {'mt_out': 'No book people', 'status': 'success', 'transcript': 'no book people'}
+
+Chatbot response:  {
+  "id": "cmpl-7VvRv4MQwLRaFUaWydHOmiFV4pZz9",
+  "object": "text_completion",
+  "created": 1687843359,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nNo book people refers to people who do not read books. This term is often used to describe people who are not interested in reading or who do not have the time to read. It can also refer to people who do not have access to books or who do not have the resources to purchase books.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 841,
+    "completion_tokens": 62,
+    "total_tokens": 903
+  }
+}
+
+
+Machine Translation response:  {'mt_out': "No book people refers to people who don't read books This term is often used to describe people who are not interested in reading or who do not have time to read It can also refer to people who do not have access to books or who do not have the resources to buy books", 'status': 'success', 'transcript': 'No book people refers to people who do not read books. This term is often used to describe people who are not interested in reading or who do not have the time to read. It can also refer to people who do not have access to books or who do not have the resources to purchase books.'}
+
+TTS Response status:  success
+
+Client connected
+
+New user connected with ID: uoYeNdpQYSPv1y7EAAB_
+
+ Speech to Text Response: {"status":"success","time_taken":"0.76","transcript":"he did research for key presidents on her","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:03.300\nhe did research for key presidents on her"}
+
+
+Machine Translation response:  {'mt_out': 'He did research for key presidents on her.', 'status': 'success', 'transcript': 'he did research for key presidents on her'}
+
+Chatbot response:  {
+  "id": "cmpl-7VwRIExRzCgVDOttdqmvcp7zzRKUS",
+  "object": "text_completion",
+  "created": 1687847164,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": " About Google",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 717,
+    "completion_tokens": 2,
+    "total_tokens": 719
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'About the Google', 'status': 'success', 'transcript': 'About Google'}
+
+TTS Response status:  success
+
+ Speech to Text Response: {"status":"success","time_taken":"0.61","transcript":"president corner","vtt":"WEBVTT\n\n00:00:03.700 --> 00:00:05.300\npresident corner"}
+
+
+Machine Translation response:  {'mt_out': 'President corner', 'status': 'success', 'transcript': 'president corner'}
+
+Chatbot response:  {
+  "id": "cmpl-7VwaztvhJ8UgOdmAjDvSl1fiVNefY",
+  "object": "text_completion",
+  "created": 1687847765,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nPresident's Corner - Brookings Institution\n\nThe President's Corner is a research and commentary hub from Brookings Interim President John R. Allen. Here, you can find the latest research and commentary from Brookings experts on a range of topics, including economic policy, foreign policy, education, and more. You can also find media interviews and other content from President Allen. Through the President's Corner, Brookings seeks to provide a platform for thoughtful, evidence-based dialogue on the most pressing issues of our",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 684,
+    "completion_tokens": 100,
+    "total_tokens": 784
+  }
+}
+
+
+Machine Translation response:  {'mt_out': "President's Corner - Brookings Institution The President's Corner is a research and commentary hub from Brookings Interim President John R - What? Here, you can find the latest research and commentary from Brookings experts on a range of topics, including economic policy, foreign policy, education, and more You can also find media interviews and other content from President Allen Through the President's Corner, Brookings seeks to provide a platform for thoughtful, evidence-based dialogue on the most pressing issues of our", 'status': 'success', 'transcript': "President's Corner - Brookings Institution\n\nThe President's Corner is a research and commentary hub from Brookings Interim President John R. Allen. Here, you can find the latest research and commentary from Brookings experts on a range of topics, including economic policy, foreign policy, education, and more. You can also find media interviews and other content from President Allen. Through the President's Corner, Brookings seeks to provide a platform for thoughtful, evidence-based dialogue on the most pressing issues of our"}
+
+TTS Response status:  success
+
+Client connected
+
+New user connected with ID: nqrG0r6zQxZFsOGCAACB
+
+Client disconnected
+
+ Speech to Text Response: {"status":"success","time_taken":"0.67","transcript":"\u092a\u0930 \u0915\u0940 \u092a\u094d\u0930\u0947\u0938\u094d\u091f","vtt":"WEBVTT\n\n00:00:01.000 --> 00:00:02.800\n\u092a\u0930 \u0915\u0940 \u092a\u094d\u0930\u0947\u0938\u094d\u091f"}
+
+
+Machine Translation response:  {'mt_out': 'But the priest.', 'status': 'success', 'transcript': 'पर की प्रेस्ट। '}
+
+ Speech to Text Response: {"status":"success","time_taken":"0.90","transcript":"\u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u091f\u0940 \u092a\u094d\u0930\u0947\u0938\u093f\u0921\u0947\u0902\u091f \u0915\u094c\u0928 \u0939\u0948","vtt":"WEBVTT\n\n00:00:00.500 --> 00:00:03.400\n\u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u091f\u0940 \u092a\u094d\u0930\u0947\u0938\u093f\u0921\u0947\u0902\u091f \u0915\u094c\u0928 \u0939\u0948"}
+
+
+Machine Translation response:  {'mt_out': 'Who is the Research Party President?', 'status': 'success', 'transcript': 'रिसर्च पार्टी प्रेसिडेंट कौन है? '}
+
+Chatbot response:  {
+  "id": "cmpl-7VwsvWIlQMBVfhmJsAFN8HJJs9Glz",
+  "object": "text_completion",
+  "created": 1687848877,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current Research Party President is not known.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 750,
+    "completion_tokens": 11,
+    "total_tokens": 761
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'वर्तमान अनुसंधान पार्टी अध्यक्ष ज्ञात नहीं है। ', 'status': 'success', 'transcript': 'The current Research Party President is not known.'}
+
+Chatbot response:  {
+  "id": "cmpl-7VwsuECH5HxYAS1pvwmk8UHi0rZWw",
+  "object": "text_completion",
+  "created": 1687848876,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe Priest is a 2021 Indian Malayalam-language supernatural horror mystery film directed by debutant Jofin T. Chacko. The film stars Mammootty, Manju Warrier, Nikhila Vimal, and Saniya Iyappan in the lead roles. The story follows a Catholic priest who investigates a series of mysterious events in a village church. The film was released on 11 March 2021. In Christianity, a priest is a person who is ordained to perform",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 773,
+    "completion_tokens": 100,
+    "total_tokens": 873
+  }
+}
+
+
+TTS Response status:  success
+
+Machine Translation response:  {'mt_out': 'द पुजारी 2021 की एक भारतीय मलयालम भाषा की सुपरनैचुरल हॉरर रहस्य फिल्म है जिसका निर्देशन डेब्यू करने वाली जोफिन टी ने किया है। चैक फिल्म में मुख्य भूमिकाओं में मम्मोटी, मंजू वारियर, निकिला विमल और सानिया अय्यप हैं। कहानी एक कैथोलिक पुजारी की कहानी है जो गांव के चर्च में एक रहस्यमय घटनाओं की एक श्रृंखला की जांच करता है। फिल्म 11 मार्च 2021 को रिलीज हुई थी। ईसाई धर्म में पुजारी वह व्यक्ति होता है जिसे कार्य करने के लिए नियुक्त किया जाता है। ', 'status': 'success', 'transcript': 'The Priest is a 2021 Indian Malayalam-language supernatural horror mystery film directed by debutant Jofin T. Chacko. The film stars Mammootty, Manju Warrier, Nikhila Vimal, and Saniya Iyappan in the lead roles. The story follows a Catholic priest who investigates a series of mysterious events in a village church. The film was released on 11 March 2021. In Christianity, a priest is a person who is ordained to perform'}
+
+TTS Response status:  success
+
+ Speech to Text Response: {"status":"success","time_taken":"5.84","transcript":"\u092a\u094d\u0930\u0947\u0938\u093f\u0921\u0947\u0902\u091f \u0915\u094c\u0928 \u0939\u0948","vtt":"WEBVTT\n\n00:00:01.400 --> 00:00:03.100\n\u092a\u094d\u0930\u0947\u0938\u093f\u0921\u0947\u0902\u091f \u0915\u094c\u0928 \u0939\u0948"}
+
+
+Machine Translation response:  {'mt_out': 'Who is the President?', 'status': 'success', 'transcript': 'प्रेसिडेंट कौन है? '}
+
+Chatbot response:  {
+  "id": "cmpl-7Vx4aQ9aj8I7WhkxeuHDT8869p3fL",
+  "object": "text_completion",
+  "created": 1687849600,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current President of India is Shri Ram Nath Kovind. He was sworn in as the 14th President of India on 25 July 2017. He had been the Governor of the State of Bihar prior to his election as President.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 48,
+    "total_tokens": 1122
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'भारत के वर्तमान राष्ट्रपति श्री रामनाथ कोविंद हैं। 25 जुलाई 2017 को भारत के 14वें राष्ट्रपति के रूप में शपथ ली। वह राष्ट्रपति के रूप में चुने जाने से पहले बिहार राज्य के राज्यपाल थे। ', 'status': 'success', 'transcript': 'The current President of India is Shri Ram Nath Kovind. He was sworn in as the 14th President of India on 25 July 2017. He had been the Governor of the State of Bihar prior to his election as President.'}
+
+Client connected
+
+New user connected with ID: i4d7riPlW5dOviMZAACD
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: qNZt9gzx1st-TP83AACF
+
+Client disconnected
+
+Client connected
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: AF12HqPk4Ti6me7IAAAB
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: vD1AEJloK5pEbYKmAAAD
+*************************************************************
+
+Client ID: vD1AEJloK5pEbYKmAAAD  | Input Language:  english  | Target Language:  tamil
+
+ Speech to Text Response: {"status":"success","time_taken":"0.37","transcript":"Hello","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.000\nHello"}
+
+
+Machine Translation response:  {'mt_out': '- What?', 'status': 'success', 'transcript': 'Hello'}
+
+Chatbot response:  {
+  "id": "cmpl-7VyxSrZ8ix2hRQDV0s9KL0JnmgiEe",
+  "object": "text_completion",
+  "created": 1687856846,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 734,
+    "total_tokens": 734
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'அசல். ', 'status': 'success', 'transcript': ''}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+ * Serving Flask app 'app_n_api'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: 486FkJZPavl3Z82GAAAB
+*************************************************************
+
+Client ID: 486FkJZPavl3Z82GAAAB  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.43","transcript":"hi","vtt":"WEBVTT\n\n00:00:00.500 --> 00:00:01.600\nhi"}
+
+
+Machine Translation response:  {'mt_out': '- Hi. - What?', 'status': 'success', 'transcript': 'hi'}
+
+Chatbot response:  {
+  "id": "cmpl-7WGVmUHO1uowouKQYOOOv8dK7RHHm",
+  "object": "text_completion",
+  "created": 1687924322,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 829,
+    "total_tokens": 829
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The first', 'status': 'success', 'transcript': ''}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: fxgHKPDixScYFQKKAAAE
+
+Client connected
+
+New user connected with ID: tVNgYN6lb4NCivgAAAAG
+
+Client connected
+
+New user connected with ID: HI_egqMoP0RTSegZAAAI
+*************************************************************
+
+Client ID: tVNgYN6lb4NCivgAAAAG  | Input Language:  english  | Target Language:  tamil
+
+ Speech to Text Response: {"status":"success","time_taken":"0.77","transcript":"telia poiam on nature","vtt":"WEBVTT\n\n00:00:00.300 --> 00:00:03.300\ntelia poiam on nature"}
+
+
+Machine Translation response:  {'mt_out': 'The nature of the sea', 'status': 'success', 'transcript': 'telia poiam on nature'}
+
+Chatbot response:  {
+  "id": "cmpl-7WGYMK4uQREEMDpfpu6t5ngzOPFU1",
+  "object": "text_completion",
+  "created": 1687924482,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe nature of the sea is that it is a large body of salty water. It is composed of many dissolved salts, and it is not suitable for drinking or other purposes. The sea is also home to a variety of marine life, and it is an important part of the global climate system. The colour of the sea can range from deep blue to light green, depending on the depth and the amount of sunlight it receives.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 705,
+    "completion_tokens": 87,
+    "total_tokens": 792
+  }
+}
+
+*************************************************************
+
+Client ID: HI_egqMoP0RTSegZAAAI  | Input Language:  english  | Target Language:  tamil
+
+Machine Translation response:  {'mt_out': 'கடலின் இயல்பு என்னவென்றால், அது ஒரு பெரிய உப்பு நீராகும். இது பல கரைந்த உப்புகளால் ஆனது, அது குடிப்பதற்கும் அல்லது வேறு எந்த நோக்கத்திற்கும் பொருந்தாது. கடலில் பல்வேறு கடல் உயிரினங்கள் வாழ்கின்றன. கடலின் நிறம் ஆழமான நீல நிறத்திலிருந்து வெளிர் பச்சை நிறத்திற்கு வரலாம், அது பெறும் சூரிய ஒளியின் ஆழத்தையும் அளவையும் பொறுத்து. ', 'status': 'success', 'transcript': 'The nature of the sea is that it is a large body of salty water. It is composed of many dissolved salts, and it is not suitable for drinking or other purposes. The sea is also home to a variety of marine life, and it is an important part of the global climate system. The colour of the sea can range from deep blue to light green, depending on the depth and the amount of sunlight it receives.'}
+
+ Speech to Text Response: {"status":"success","time_taken":"0.68","transcript":"something about Narendra Modi","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.800\nsomething about Narendra Modi"}
+
+
+Machine Translation response:  {'mt_out': 'something about Narendra Modi', 'status': 'success', 'transcript': 'something about Narendra Modi'}
+
+Chatbot response:  {
+  "id": "cmpl-7WGYTD0kze2RFYMBYLfFR1TSyyCdU",
+  "object": "text_completion",
+  "created": 1687924489,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1112,
+    "total_tokens": 1112
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'அசல். ', 'status': 'success', 'transcript': ''}
+
+Client disconnected
+
+Client disconnected
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: vwS7RdqTNWA4tiNCAAAK
+
+Client connected
+
+New user connected with ID: -nOlreYnNHIk-UJ9AAAM
+*************************************************************
+
+Client ID: vwS7RdqTNWA4tiNCAAAK  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.72","transcript":"tell me todays headlines of chennai","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:03.200\ntell me todays headlines of chennai"}
+
+
+Machine Translation response:  {'mt_out': "Tell me today's headlines of Chennai", 'status': 'success', 'transcript': 'tell me todays headlines of chennai'}
+
+Chatbot response:  {
+  "id": "cmpl-7WIaXqfqlg6xpUyRSWyAzVAnirYv0",
+  "object": "text_completion",
+  "created": 1687932305,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 877,
+    "total_tokens": 877
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The first', 'status': 'success', 'transcript': ''}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client connected
+
+New user connected with ID: O0aBDv8A49CuKGvtAAAO
+*************************************************************
+
+Client ID: -nOlreYnNHIk-UJ9AAAM  | Input Language:  english  | Target Language:  tamil
+
+ Speech to Text Response: {"status":"success","time_taken":"0.58","transcript":"about Gandhiji","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.900\nabout Gandhiji"}
+
+
+Machine Translation response:  {'mt_out': 'about Gandhiji', 'status': 'success', 'transcript': 'about Gandhiji'}
+
+Chatbot response:  {
+  "id": "cmpl-7WIaeCDnsGJc5V4eiMQuT8tAl9nJS",
+  "object": "text_completion",
+  "created": 1687932312,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nMohandas Karamchand Gandhi was an Indian lawyer and anti-colonial nationalist who employed non-violent resistance in the campaign for India's independence from British rule. Born in 1869 in Gujarat, India, Gandhi studied law at the Inner Temple in London. He was a leader of the Indian National Congress and was instrumental in leading India to independence. He was also known as Mahatma Gandhi, meaning \"Great Soul\". He advocated for non-violence, civil disobedience, and peaceful",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 100,
+    "total_tokens": 1258
+  }
+}
+
+
+Client connected
+*************************************************************
+
+Client ID: vwS7RdqTNWA4tiNCAAAK  | Input Language:  english  | Target Language:  english
+
+New user connected with ID: 1PJH8SERJ1aSW6b9AAAQ
+
+Machine Translation response:  {'mt_out': 'மோஹந்தாஸ் கரம்சந்த் காந்தி ஒரு இந்திய வழக்கறிஞர் மற்றும் காலனித்துவ எதிர்ப்பு தேசியவாதி ஆவார், அவர் பிரிட்டிஷ் ஆட்சியிலிருந்து இந்தியாவின் சுதந்திரத்திற்கான பிரச்சாரத்தில் வன்முறையற்ற எதிர்ப்பைப் பயன்படுத்தினார். 1869 இல் இந்தியாவின் குஜராத்தில் பிறந்த காந்தி லண்டனில் உள்ள உள்ள கோவிலில் சட்டம் படித்தார். இந்திய தேசிய காங்கிரஸின் தலைவராக இருந்தார். இந்தியா சுதந்திரத்திற்கு வழிவகுப்பதில் முக்கிய பங்கு வகித்தார். மகாத்மா காந்தி. என்றும் அழைக்கப்படுவார், அதாவது "பெரிய ஆன்மா" வன்முறை. இல்லாத, குடிமக்கள் கீழ்ப்படியாத, அமைதியான ', 'status': 'success', 'transcript': 'Mohandas Karamchand Gandhi was an Indian lawyer and anti-colonial nationalist who employed non-violent resistance in the campaign for India\'s independence from British rule. Born in 1869 in Gujarat, India, Gandhi studied law at the Inner Temple in London. He was a leader of the Indian National Congress and was instrumental in leading India to independence. He was also known as Mahatma Gandhi, meaning "Great Soul". He advocated for non-violence, civil disobedience, and peaceful'}
+
+ Speech to Text Response: {"status":"success","time_taken":"0.81","transcript":"can you please tell me the todays new soft chennai","vtt":"WEBVTT\n\n00:00:00.100 --> 00:00:05.100\ncan you please tell me the todays new soft chennai"}
+
+
+Machine Translation response:  {'mt_out': "Can you please tell me today's new soft Chennai", 'status': 'success', 'transcript': 'can you please tell me the todays new soft chennai'}
+
+Client connected
+
+New user connected with ID: ZDrgli89IuS-iJksAAAS
+
+Chatbot response:  {
+  "id": "cmpl-7WIakRWQdtsfxxaQQPzu85e2bKgDS",
+  "object": "text_completion",
+  "created": 1687932318,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nGoogle News\n\nGoogle News is a great source for staying up to date on the latest news from Chennai. You can find the latest news stories, headlines, and videos from local and international sources. You can also customize your news feed to get the most relevant stories for you. Additionally, you can also set up alerts to get notifications when new stories are published.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 758,
+    "completion_tokens": 75,
+    "total_tokens": 833
+  }
+}
+
+*************************************************************
+
+Client ID: O0aBDv8A49CuKGvtAAAO  | Input Language:  english  | Target Language:  english
+
+Machine Translation response:  {'mt_out': 'Google News Google News is a great source for staying up to date on the latest news from Chennai You can find the latest news stories, headlines, and videos from local and international sources You can also customize your news feed to get the most relevant stories for you Additionally, you can also set up alerts to receive notifications when new stories are published', 'status': 'success', 'transcript': 'Google News\n\nGoogle News is a great source for staying up to date on the latest news from Chennai. You can find the latest news stories, headlines, and videos from local and international sources. You can also customize your news feed to get the most relevant stories for you. Additionally, you can also set up alerts to get notifications when new stories are published.'}
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+
+Speech To Text Error:'transcript'
+*************************************************************
+
+Client ID: O0aBDv8A49CuKGvtAAAO  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"2.91","transcript":"capital of Tamilnadu.","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.200\ncapital of Tamilnadu."}
+
+
+Machine Translation response:  {'mt_out': 'capital of Tamil Nadu.', 'status': 'success', 'transcript': 'capital of Tamilnadu.'}
+
+Chatbot response:  {
+  "id": "cmpl-7WIaynURvBDaZ3Q2XowjHLTEth7Mc",
+  "object": "text_completion",
+  "created": 1687932332,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nChennai",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 967,
+    "completion_tokens": 5,
+    "total_tokens": 972
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'Chennai', 'status': 'success', 'transcript': 'Chennai'}
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: vzH_y2FKTxHnDisaAAAU
+*************************************************************
+
+Client ID: 1PJH8SERJ1aSW6b9AAAQ  | Input Language:  english  | Target Language:  tamil
+
+ Speech to Text Response: {"status":"success","time_taken":"2.07","transcript":"IIT Madras incubation cell.","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.800\nIIT Madras incubation cell."}
+
+
+Machine Translation response:  {'mt_out': 'The incubation cell of the IIT Madras.', 'status': 'success', 'transcript': 'IIT Madras incubation cell.'}
+*************************************************************
+
+Client ID: vzH_y2FKTxHnDisaAAAU  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"reason":"No speech detected","status":"failure"}
+
+
+Speech To Text Error:'transcript'
+
+Chatbot response:  {
+  "id": "cmpl-7WIbAlmcGQwOzC9H2Y6jKokKNaEfy",
+  "object": "text_completion",
+  "created": 1687932344,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe IITM Incubation Cell (IITMIC) is India's leading Deep-tech Startup hub. It coordinates and leverages the synergies of various strands of excellence in IIT Madras to foster innovation and entrepreneurship. It provides a platform for the IIT Madras community to interact with the industry, venture capitalists, and other stakeholders in the entrepreneurial ecosystem. The Cell also provides mentorship, funding, and other resources to help startups succeed. It has a portfolio of over",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 957,
+    "completion_tokens": 100,
+    "total_tokens": 1057
+  }
+}
+
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: UxTj1Ze7PDMfWggrAAAW
+
+Machine Translation response:  {'mt_out': 'IITM இன்குபேஷன் செல் (IITMIC) இந்தியாவின் முன்னணி ஆழமான தொழில்நுட்ப தொடக்க மையமாகும். புதுமை மற்றும் தொழில்முனைவோர் திறனை ஊக்குவிக்க IIT மத்ராஸில் பல்வேறு சிறப்பான துறைகளின் ஒத்திசைவுகளை இது ஒருங்கிணைக்கிறது மற்றும் பயன்படுத்தி வருகிறது. இது தொழில்துறை, தொழில்முனைவோர் மற்றும் தொழில்முனைவோர் சூழலில் உள்ள பிற பங்குதாரர்களுடன் தொடர்பு கொள்ள ஐஐடி மத்ராஸ் சமூகத்திற்கு ஒரு தளத்தை வழங்குகிறது. ஸ்டார்ட்அப் நிறுவனங்கள் வெற்றிபெற உதவும் வகையில், செல் வழிகாட்டுதல், நிதி மற்றும் பிற வளங்களையும் வழங்குகிறது அது ஒரு போர்ட்ஃபோலியோ உள்ளது ', 'status': 'success', 'transcript': "The IITM Incubation Cell (IITMIC) is India's leading Deep-tech Startup hub. It coordinates and leverages the synergies of various strands of excellence in IIT Madras to foster innovation and entrepreneurship. It provides a platform for the IIT Madras community to interact with the industry, venture capitalists, and other stakeholders in the entrepreneurial ecosystem. The Cell also provides mentorship, funding, and other resources to help startups succeed. It has a portfolio of over"}
+*************************************************************
+
+Client ID: UxTj1Ze7PDMfWggrAAAW  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"2.38","transcript":"capital of Chennai","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.900\ncapital of Chennai"}
+
+
+Machine Translation response:  {'mt_out': 'capital of Chennai', 'status': 'success', 'transcript': 'capital of Chennai'}
+
+Chatbot response:  {
+  "id": "cmpl-7WIbTEz0ygXHvPCAqOw7qxmQ3ITGG",
+  "object": "text_completion",
+  "created": 1687932363,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": " About 8,570,000 results (0.63 seconds)",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2313,
+    "completion_tokens": 13,
+    "total_tokens": 2326
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'About 8,570,000 results (0.63 seconds)', 'status': 'success', 'transcript': 'About 8,570,000 results (0.63 seconds)'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: d3Ec1fdEiKmD_P2GAAAY
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client connected
+
+New user connected with ID: ETVAbuI8yIHqLnB8AAAa
+
+Client connected
+
+New user connected with ID: 9nmUpOh4ZnyOJcaMAAAc
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client connected
+
+New user connected with ID: PalPKcMQtikGArBsAAAe
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: HDHiybN73f32isShAAAg
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: jYK9RjrE2XVO1KtEAAAi
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: F4AgLss3M7nyZb9ZAAAk
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 25DDd1JJCogRVKm_AAAm
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: hMnZmrdGHEuL_tf2AAAp
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 9uz-5erYi3Bd5iy3AAAr
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: wTXhNc8R_7UvnWCPAAAu
+
+Client connected
+
+New user connected with ID: ZWELXSmjtd8tmUNfAAAv
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: GpZbTya7-1FmkAj2AAAx
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 1NJGYLmQR_y2XmP5AAAz
+
+Client disconnected
+*************************************************************
+
+Client ID: wTXhNc8R_7UvnWCPAAAu  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.47","transcript":"change language","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:01.200\nchange language"}
+
+
+Machine Translation response:  {'mt_out': 'change of language', 'status': 'success', 'transcript': 'change language'}
+
+Chatbot response:  {
+  "id": "cmpl-7WJCPMIuI5pidriaelv8gDoxOokjd",
+  "object": "text_completion",
+  "created": 1687934653,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nOn your Android device, tap Settings.\nTap System Languages & input. Languages. If you can't find \"System,\" then under \"Personal,\" tap Languages & input Languages.\nTap Add a language. and choose the language that you want to use.\nDrag your language to the top of the list.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 836,
+    "completion_tokens": 65,
+    "total_tokens": 901
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'On your Android device, tap Settings Tap on System Languages & input Languages If you can\'t find "System", then under "Personal", tap Languages & input Languages Tap Add a language and choose the language you want to use Drag your language to the top of the list', 'status': 'success', 'transcript': 'On your Android device, tap Settings.\nTap System Languages & input. Languages. If you can\'t find "System," then under "Personal," tap Languages & input Languages.\nTap Add a language. and choose the language that you want to use.\nDrag your language to the top of the list.'}
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: ExRV59ofnaWEMYLmAAA1
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+*************************************************************
+
+Client ID: ExRV59ofnaWEMYLmAAA1  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"1.12","transcript":"how far is the moon from earth","vtt":"WEBVTT\n\n00:00:01.900 --> 00:00:06.800\nhow far is the moon from earth"}
+
+
+Machine Translation response:  {'mt_out': 'How far is the moon from the earth?', 'status': 'success', 'transcript': 'how far is the moon from earth'}
+
+Chatbot response:  {
+  "id": "cmpl-7WJCs3zWU1WBeTe290uw8GdJv7CTf",
+  "object": "text_completion",
+  "created": 1687934682,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe average distance between the Earth and the Moon is 384,400 km (238,855 miles).",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1028,
+    "completion_tokens": 22,
+    "total_tokens": 1050
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The average distance between the Earth and the Moon is 384,400 km (238,855 miles).', 'status': 'success', 'transcript': 'The average distance between the Earth and the Moon is 384,400 km (238,855 miles).'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client connected
+
+New user connected with ID: V37eAcOMghRwJExdAAA3
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: SVNNv6nmvjKGPOW_AAA5
+
+Client disconnected
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: FcBW2-ZFDVJtnCAGAAA7
+
+Client connected
+
+New user connected with ID: igMriNftWBPpID9ZAAA9
+
+Client disconnected
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: CbUHoT0jK9zvnQxbAAA_
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: kQXQWsvBq7s-HoZLAABB
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 6lWKg_bC_Q6_VwNhAABD
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 75SHDn_4fcE1EgDZAABF
+
+Client connected
+
+New user connected with ID: iKVsElqD7OQfHBsFAABH
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: wTDBsVwoNELAFpueAABJ
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: _hHlFEJkFTr00VF7AABL
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 8L6FUTkd4o_D4t8NAABN
+
+Client connected
+
+New user connected with ID: 2VuYanHLRbDp-vnEAABP
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 5MbsY7RlBbW8ni9iAABR
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: dA7nl_14-S_ZFqq7AABT
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: JgdCBrOkPr4xYVXuAABV
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: iTcRhS_VjDHf1-UyAABX
+
+Client connected
+
+New user connected with ID: _W0lV8aM3J2WrKYqAABZ
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: -XmtxyNOmFr1jM4_AABb
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: LYamZZxKkC5I0szFAABd
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: ZNWX67CfuPQsAsPfAABf
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: yRv1ll4Fw7qBk-GiAABh
+
+Client connected
+
+New user connected with ID: VsTcRVKPtvJv9PQVAABj
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: dLtshm5RpQ7RKI3tAABl
+*************************************************************
+
+Client ID: dLtshm5RpQ7RKI3tAABl  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.89","transcript":"who is the current president of IIT Madras research park","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:03.500\nwho is the current president of IIT Madras research park"}
+
+
+Machine Translation response:  {'mt_out': 'who is the current president of IIT Madras research park', 'status': 'success', 'transcript': 'who is the current president of IIT Madras research park'}
+
+Chatbot response:  {
+  "id": "cmpl-7Wd4cVwDFTbqfsnBewHafdpfNE2gH",
+  "object": "text_completion",
+  "created": 1688011050,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 968,
+    "completion_tokens": 24,
+    "total_tokens": 992
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.', 'status': 'success', 'transcript': 'The current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client connected
+
+New user connected with ID: phZ76GA5lZ5Mb9F8AABn
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 5MRAg3RVpCkRmOXRAABp
+
+Client connected
+
+New user connected with ID: 0kOl0Ga5-iOnk7iMAABr
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: yta4-fLmlw3Iy6-zAABt
+*************************************************************
+
+Client ID: 0kOl0Ga5-iOnk7iMAABr  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"1.02","transcript":"what happened to sandalman balaji electricity minister of Tamilnadu","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:03.600\nwhat happened to sandalman balaji\n\n00:00:03.600 --> 00:00:05.700\nelectricity minister of Tamilnadu"}
+
+
+Machine Translation response:  {'mt_out': 'What happened to Sandalman Balaji, the electricity minister of Tamilnadu', 'status': 'success', 'transcript': 'what happened to sandalman balaji electricity minister of Tamilnadu'}
+
+Chatbot response:  {
+  "id": "cmpl-7Wd9blqn2J6zDkximhJL43Jyv9kOs",
+  "object": "text_completion",
+  "created": 1688011359,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nTamil Nadu Electricity Minister Senthil Balaji was arrested by the Enforcement Directorate (ED) on June 14, 2023 in connection with a money laundering case. He was remanded in judicial custody till June 28. He was admitted to the Intensive Care Unit (ICU) of a private hospital in Tharamani, Chennai, Tamil Nadu due to health issues.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 827,
+    "completion_tokens": 77,
+    "total_tokens": 904
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'Tamil Nadu Electricity Minister Senthil Balaji was arrested by the Enforcement Directorate (ED) on June 14, 2023 in connection with a money laundering case He was remanded in custody until June 28th. He was admitted to the Intensive Care Unit (ICU) of a private hospital in Tharamani, Chennai, Tamil Nadu due to health issues', 'status': 'success', 'transcript': 'Tamil Nadu Electricity Minister Senthil Balaji was arrested by the Enforcement Directorate (ED) on June 14, 2023 in connection with a money laundering case. He was remanded in judicial custody till June 28. He was admitted to the Intensive Care Unit (ICU) of a private hospital in Tharamani, Chennai, Tamil Nadu due to health issues.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: xjEGFmAYncSXIqhfAABv
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: l5LR22ZNMuHCmIvMAABx
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: JHXGWLje3vXy9L0qAABz
+
+Client connected
+
+New user connected with ID: rXh-xJpZ-0b9fOURAAB1
+
+Client disconnected
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+Client connected
+
+New user connected with ID: R0j3OVHbFI4TEe18AAB4
+
+New user connected with ID: 9OJZdcDwxFnMbCw-AAB5
+
+Client connected
+
+New user connected with ID: JUSbDT2831WjL2QXAAB7
+*************************************************************
+
+Client ID: JUSbDT2831WjL2QXAAB7  | Input Language:  english  | Target Language:  hindi
+
+ Speech to Text Response: {"status":"success","time_taken":"0.84","transcript":"great me it mubarak","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:04.600\ngreat me it mubarak"}
+
+
+Machine Translation response:  {'mt_out': 'Great for me it is Mubarak', 'status': 'success', 'transcript': 'great me it mubarak'}
+
+Chatbot response:  {
+  "id": "cmpl-7Wdf3kMN5tSadDC7mMQjCfkHgExjP",
+  "object": "text_completion",
+  "created": 1688013309,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nEid Mubarak! May Allah bless you and your family with peace, joy, and prosperity on this joyous occasion. Wishing you a happy Eid-ul-Fitr 2023!",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 792,
+    "completion_tokens": 40,
+    "total_tokens": 832
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'ईद मुबारक, अल्लाह आपको और आपके परिवार को इस सुखद अवसर पर शांति, खुशी और समृद्धि प्रदान करे। आपको ईद-उल-फितर 2023 की शुभकामनाएं। ', 'status': 'success', 'transcript': 'Eid Mubarak! May Allah bless you and your family with peace, joy, and prosperity on this joyous occasion. Wishing you a happy Eid-ul-Fitr 2023!'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 09q0eCW2Q1BgyBr_AAB9
+
+Client connected
+
+New user connected with ID: -46hdTC8t6giR1fYAAB_
+*************************************************************
+
+Client ID: -46hdTC8t6giR1fYAAB_  | Input Language:  hindi  | Target Language:  tamil
+
+ Speech to Text Response: {"status":"success","time_taken":"0.65","transcript":"\u0924\u0947\u0930\u093e \u092c\u093e\u0926","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.700\n\u0924\u0947\u0930\u093e \u092c\u093e\u0926"}
+
+
+Machine Translation response:  {'mt_out': 'After you.', 'status': 'success', 'transcript': 'तेरा बाद। '}
+
+Client disconnected
+
+Chatbot response:  {
+  "id": "cmpl-7WdjygGSoKr5xTD6oJTciK6ABUmg0",
+  "object": "text_completion",
+  "created": 1688013614,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nGoogle\nPlease click here if you are not redirected within a few seconds. AllVideosImagesNews Maps Shopping Books Search tools Any timeAny timePast hourPast 24 hoursPast weekPast monthPast yearAll resultsAll resultsVerbatim\nAfter You\nNovel by Jojo Moyes\n3.7/5 · Goodreads\n4.2/5 · Amazon.in\nAfter You is a romance novel written by Jojo Moyes. It is a sequel to Me Before",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1105,
+    "completion_tokens": 100,
+    "total_tokens": 1205
+  }
+}
+
+
+Client connected
+
+New user connected with ID: XFJRsBCxpODsxA7XAACB
+
+Machine Translation response:  {'mt_out': 'Google தயவு செய்து இங்கே கிளிக் செய்யவும். நீங்கள் சில வினாடிகளில் திருப்பி இல்லை என்றால் அனைத்து வீடியோக்கள்படங்கள்செய்திகள் வரைபடங்கள் ஷாப்பிங் புத்தகங்கள் தேடல் கருவிகள் எந்த நேரமும்எந்த நேரமும்கடந்த மணிநேரம்கத்திற்குள்கடந்த 24 மணிநேரம்கடந்த வாரம்கடந்த மாதம்கடந்த ஆண்டுஅனைத்து முடிவுகள்எல்லா முடிவுகளும்உண்மைக்கு பிறகு நீங்கள் நாவல் ஜோஜோ மோயஸ் 3 7/5 · நல்லதொரு செய்தி 4 2/5 · அமேசான் After in You என்பது ஜோஜோ மோயஸ் எழுதிய ஒரு காதல் நாவல் அது எனக்கு முன்னர் ஒரு தொடர்ச்சி ', 'status': 'success', 'transcript': 'Google\nPlease click here if you are not redirected within a few seconds. AllVideosImagesNews Maps Shopping Books Search tools Any timeAny timePast hourPast 24 hoursPast weekPast monthPast yearAll resultsAll resultsVerbatim\nAfter You\nNovel by Jojo Moyes\n3.7/5 · Goodreads\n4.2/5 · Amazon.in\nAfter You is a romance novel written by Jojo Moyes. It is a sequel to Me Before'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+*************************************************************
+
+Client ID: XFJRsBCxpODsxA7XAACB  | Input Language:  hindi  | Target Language:  tamil
+
+ Speech to Text Response: {"status":"success","time_taken":"0.61","transcript":"\u092c\u093e\u0924","vtt":"WEBVTT\n\n00:00:01.000 --> 00:00:02.000\n\u092c\u093e\u0924"}
+
+
+Machine Translation response:  {'mt_out': 'The matter.', 'status': 'success', 'transcript': 'बात '}
+
+Client disconnected
+
+Client disconnected
+
+Client connected
+
+Client connected
+
+New user connected with ID: nnN2DmVh0K9Uvt5fAACF
+
+New user connected with ID: gzWCs8jncQBRb287AACD
+
+Chatbot response:  {
+  "id": "cmpl-7WdkPjyTHWR9t8C6B6CkO5lI4ctIe",
+  "object": "text_completion",
+  "created": 1688013641,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe matter is a physical substance in general, as distinct from mind and spirit; (in physics) that which occupies space and possesses rest mass, especially as distinct from energy. It is also a subject or situation under consideration, and the reason for distress or a problem. In addition, the matter is the substance or content of a text as distinct from its style or form.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 973,
+    "completion_tokens": 77,
+    "total_tokens": 1050
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'பொருள் என்பது பொதுவாக ஒரு உடல், பொருள், மனது மற்றும் ஆன்மாவைப் போலவே வேறுபடுகிறது; (இயற்பியல்) இடத்தில் இருப்பதும், ஓய்வெடுக்கும் அளவைக் கொண்டதும், குறிப்பாக ஆற்றலிலிருந்து வேறுபடுவது. இது ஒரு கருத்திடப்படும் பொருள் அல்லது நிலைமை, மற்றும் ஒரு துன்பத்திற்கான காரணம் அல்லது ஒரு பிரச்சனை. மேலும், ஒரு நூலின் பொருள் அல்லது உள்ளடக்கம் அதன் பாணி அல்லது வடிவத்திலிருந்து வேறுபடுகிறது. ', 'status': 'success', 'transcript': 'The matter is a physical substance in general, as distinct from mind and spirit; (in physics) that which occupies space and possesses rest mass, especially as distinct from energy. It is also a subject or situation under consideration, and the reason for distress or a problem. In addition, the matter is the substance or content of a text as distinct from its style or form.'}
+*************************************************************
+
+Client ID: gzWCs8jncQBRb287AACD  | Input Language:  hindi  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"2.17","transcript":"\u0924\u0947\u0930\u093e \u0935\u093e\u0926\u093e","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.800\n\u0924\u0947\u0930\u093e \u0935\u093e\u0926\u093e"}
+
+
+Machine Translation response:  {'mt_out': 'Your promise.', 'status': 'success', 'transcript': 'तेरा वादा। '}
+
+Chatbot response:  {
+  "id": "cmpl-7Wdkgt6KGPl7lsQ9fZHJcDPlOrIi5",
+  "object": "text_completion",
+  "created": 1688013658,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": " About Google",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 760,
+    "completion_tokens": 2,
+    "total_tokens": 762
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'About the Google', 'status': 'success', 'transcript': 'About Google'}
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: CtCjGTYXWYb-vFj3AACH
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: 6RrWIIAf1FizEBS5AACJ
+
+Client disconnected
+*************************************************************
+
+Client ID: 6RrWIIAf1FizEBS5AACJ  | Input Language:  hindi  * Serving Flask app 'app_n_api2'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: s23rBHYpzCowGvluAAAB
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: F_2ntD3Z4omLD_LhAAAD
+ * Serving Flask app 'app_n_api2'
+ * Debug mode: on
+ * Serving Flask app 'app_n_api2'
+ * Debug mode: on
+ * Serving Flask app 'app_n_api2'
+ * Debug mode: on
+ * Serving Flask app 'app_n_api2'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: dCShfdZh04p88c-3AAAB
+
+Client disconnected
+
+Client connected
+
+New user connected with ID: _ycSDIzWRp7mpIlaAAAD
+ * Serving Flask app 'app_n_api2'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: 7MPjknpLQ1dNpGKiAAAB
+*************************************************************
+
+Client ID: 7MPjknpLQ1dNpGKiAAAB  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.73","transcript":"is the current president of IIT Madras.","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:02.900\nis the current president of IIT Madras."}
+
+
+Machine Translation response:  {'mt_out': 'is the current president of IIT Madras.', 'status': 'success', 'transcript': 'is the current president of IIT Madras.'}
+
+Chatbot response:  {
+  "id": "cmpl-7XPQbYFhFxYp9aFqO5HxlphO07m54",
+  "object": "text_completion",
+  "created": 1688196925,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current President of IIT Madras is Dr. Pawan Goenka.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 929,
+    "completion_tokens": 19,
+    "total_tokens": 948
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current President of IIT Madras is Dr. Pawan Goenka.', 'status': 'success', 'transcript': 'The current President of IIT Madras is Dr. Pawan Goenka.'}
+*************************************************************
+
+Client ID: 7MPjknpLQ1dNpGKiAAAB  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.90","transcript":"Who is the current president of IIT Madras research?","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:04.000\nWho is the current president of IIT Madras research?"}
+
+
+Machine Translation response:  {'mt_out': 'Who is the current president of IIT Madras research?', 'status': 'success', 'transcript': 'Who is the current president of IIT Madras research?'}
+
+Chatbot response:  {
+  "id": "cmpl-7XPQxQmy1kYQ00VCOtTJpyeTm3v9H",
+  "object": "text_completion",
+  "created": 1688196947,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current president of IIT Madras Research Park is Ashok Jhunjhunwala.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 899,
+    "completion_tokens": 22,
+    "total_tokens": 921
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current president of IIT Madras Research Park is Ashok Jhunjhunwala.', 'status': 'success', 'transcript': 'The current president of IIT Madras Research Park is Ashok Jhunjhunwala.'}
+
+Client connected
+
+New user connected with ID: YIbn7nHfbh1NHHojAAAB
+*************************************************************
+
+Client ID: YIbn7nHfbh1NHHojAAAB  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.87","transcript":"who is the current president of i i t m research partner","vtt":"WEBVTT\n\n00:00:00.300 --> 00:00:03.700\nwho is the current president of i i t m research partner"}
+
+
+Machine Translation response:  {'mt_out': 'who is the current president of i t m research partner', 'status': 'success', 'transcript': 'who is the current president of i i t m research partner'}
+
+Chatbot response:  {
+  "id": "cmpl-7XPRqfkLYNKKBVecrr6jC9m6sEcdu",
+  "object": "text_completion",
+  "created": 1688197002,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current President of ITM Research Partner is Dr. P.V. Ramana.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 730,
+    "completion_tokens": 20,
+    "total_tokens": 750
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current President of ITM Research Partner is Dr. P.V. Ramana.', 'status': 'success', 'transcript': 'The current President of ITM Research Partner is Dr. P.V. Ramana.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+*************************************************************
+
+Client ID: YIbn7nHfbh1NHHojAAAB  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.85","transcript":"Who is the current president of IIT Madras research park?","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:03.800\nWho is the current president of IIT Madras research park?"}
+
+
+Machine Translation response:  {'mt_out': 'Who is the current president of IIT Madras research park?', 'status': 'success', 'transcript': 'Who is the current president of IIT Madras research park?'}
+
+Chatbot response:  {
+  "id": "cmpl-7XPSHGErjvG9qOTgYRvEBzzVjvaqn",
+  "object": "text_completion",
+  "created": 1688197029,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 991,
+    "completion_tokens": 24,
+    "total_tokens": 1015
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.', 'status': 'success', 'transcript': 'The current president of IIT Madras Research Park is Prof. Ashok Jhunjhunwala.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+*************************************************************
+
+Client ID: YIbn7nHfbh1NHHojAAAB  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.98","transcript":"Tell me about research park IIT Madras. in detail","vtt":"WEBVTT\n\n00:00:00.200 --> 00:00:04.300\nTell me about research park IIT Madras.\n\n00:00:04.300 --> 00:00:05.500\nin detail"}
+
+
+Machine Translation response:  {'mt_out': 'Tell me about research park IIT Madras.', 'status': 'success', 'transcript': 'Tell me about research park IIT Madras. in detail'}
+
+Chatbot response:  {
+  "id": "cmpl-7XPSnHNx7SRj5t1vsOQyBlRpgMzx2",
+  "object": "text_completion",
+  "created": 1688197061,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nIIT Madras Research Park is India's first university-based research park. It is located in Chennai, Tamil Nadu and is spread over 1.2 million square feet. It is a hub for research, innovation, and commercialization, and is home to over 100 companies and research organizations. The park is managed by IIT Madras and is supported by the Government of India. It provides a platform for industry-academia collaboration and encourages the development of new technologies. It also",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 931,
+    "completion_tokens": 100,
+    "total_tokens": 1031
+  }
+}
+
+
+Machine Translation response:  {'mt_out': "IIT Madras Research Park is India's first university-based research park It is located in Chennai, Tamil Nadu and is spread over 1 2 million square feet It is a hub for research, innovation, and commercialization, and is home to over 100 companies and research organizations The park is managed by IIT Madras and is supported by the Government of India It provides a platform for industry-academia collaboration and encourages the development of new technologies. It also", 'status': 'success', 'transcript': "IIT Madras Research Park is India's first university-based research park. It is located in Chennai, Tamil Nadu and is spread over 1.2 million square feet. It is a hub for research, innovation, and commercialization, and is home to over 100 companies and research organizations. The park is managed by IIT Madras and is supported by the Government of India. It provides a platform for industry-academia collaboration and encourages the development of new technologies. It also"}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+ಕನ್ನಡ
+हिन्दी
+
+ Speech to Text Response: {"reason":"'\u0939\u093f\u0928\u094d\u0926\u0940'","status":"failure"}
+
+Automatic Speech Recognition Error
+
+ Speech to Text Response: {"reason":"'\u0939\u093f\u0928\u094d\u0926\u0940'","status":"failure"}
+
+Automatic Speech Recognition Error
+
+Client connected
+
+New user connected with ID: H5FqTG_mxfHmK_DmAAAD
+*************************************************************
+
+Client ID: H5FqTG_mxfHmK_DmAAAD  | Input Language:  english  | Target Language:  english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.73","transcript":"tell me the complete history of IIT Madras","vtt":"WEBVTT\n\n00:00:00.500 --> 00:00:03.500\ntell me the complete history of IIT Madras"}
+
+
+Machine Translation response:  {'mt_out': 'Tell me the complete history of IIT Madras', 'status': 'success', 'transcript': 'tell me the complete history of IIT Madras'}
+
+Chatbot response:  {
+  "id": "cmpl-7XPXhJbvGhFK01O1x9GbP2kZcT9Js",
+  "object": "text_completion",
+  "created": 1688197365,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe Indian Institute of Technology Madras (IIT Madras) was established in 1959 by the Government of India with the assistance of the then West German Government. It was the third IIT to be established by the Government of India. The institute was inaugurated by the then Union Minister for Scientific Research and Cultural Affairs, Jawaharlal Nehru. The first batch of 120 students was admitted in 1960. In 1961, the IITs were declared to be Institutes of National Importance",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 868,
+    "completion_tokens": 100,
+    "total_tokens": 968
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The Indian Institute of Technology Madras (IIT Madras) was established in 1959 by the Government of India with the assistance of the then West German Government. It was the third IIT to be established by the Government of India. The institute was inaugurated by the then Union Minister for Scientific Research and Cultural Affairs, Jawaharlal Nehru. The first batch of 120 students was admitted in 1960 In 1961, the IITs were declared as Institutes of National Importance.', 'status': 'success', 'transcript': 'The Indian Institute of Technology Madras (IIT Madras) was established in 1959 by the Government of India with the assistance of the then West German Government. It was the third IIT to be established by the Government of India. The institute was inaugurated by the then Union Minister for Scientific Research and Cultural Affairs, Jawaharlal Nehru. The first batch of 120 students was admitted in 1960. In 1961, the IITs were declared to be Institutes of National Importance'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+english
+
+ Speech to Text Response: {"status":"success","time_taken":"0.61","transcript":"is the current president of iit m research park","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:03.300\nis the current president of iit m research park"}
+
+
+Machine Translation response:  {'mt_out': 'is the current president of the ITM Research Park', 'status': 'success', 'transcript': 'is the current president of iit m research park'}
+
+Chatbot response:  {
+  "id": "cmpl-7XPYMbPlpwTP5SOEUIX4EGq6gMsVn",
+  "object": "text_completion",
+  "created": 1688197406,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current president of the ITM Research Park is Prof. Ashok Jhunjhunwala. He is also the President of IITM Incubation Cell.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 885,
+    "completion_tokens": 37,
+    "total_tokens": 922
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'The current president of the ITM Research Park is Prof. Ashok Jhunjhunwala.', 'status': 'success', 'transcript': 'The current president of the ITM Research Park is Prof. Ashok Jhunjhunwala. He is also the President of IITM Incubation Cell.'}
+
+TTS Response status:  success
+हिन्दी
+
+ Speech to Text Response: {"reason":"'\u0939\u093f\u0928\u094d\u0926\u0940'","status":"failure"}
+
+Automatic Speech Recognition Error
+english
+english
+
+Client connected
+
+New user connected with ID: 8caP1NU3cXLnjxcbAAAF
+हिन्दी
+*************************************************************
+
+Client ID: 8caP1NU3cXLnjxcbAAAF  | Input Language:  hindi  | Target Language:  hindi
+
+ Speech to Text Response: {"status":"success","time_taken":"2.23","transcript":"\u0906\u0908\u0906\u0908\u091f\u0940 \u092e\u091f\u0930\u093e \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915 \u0915\u093e \u0935\u0930\u094d\u0924\u092e\u093e\u0928 \u092a\u094d\u0930\u0947\u0938\u093f\u0921\u0947\u0902\u091f \u0915\u094c\u0928 \u0939\u0948","vtt":"WEBVTT\n\n00:00:00.000 --> 00:00:04.400\n\u0906\u0908\u0906\u0908\u091f\u0940 \u092e\u091f\u0930\u093e \u0930\u093f\u0938\u0930\u094d\u091a \u092a\u093e\u0930\u094d\u0915 \u0915\u093e \u0935\u0930\u094d\u0924\u092e\u093e\u0928 \u092a\u094d\u0930\u0947\u0938\u093f\u0921\u0947\u0902\u091f \u0915\u094c\u0928 \u0939\u0948"}
+
+
+Machine Translation response:  {'mt_out': 'Who is the current President of IIT Matra Research Park?', 'status': 'success', 'transcript': 'आईआईटी मटरा रिसर्च पार्क का वर्तमान प्रेसिडेंट कौन है? '}
+
+Chatbot response:  {
+  "id": "cmpl-7XPa2WRsZbB1VAoIaIoXEkpHkHlGH",
+  "object": "text_completion",
+  "created": 1688197510,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThe current President of IIT Matra Research Park is Prof. Ashok Jhunjhunwala.",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 886,
+    "completion_tokens": 24,
+    "total_tokens": 910
+  }
+}
+
+
+Machine Translation response:  {'mt_out': 'आईआईटी मात्रा रिसर्च पार्क के वर्तमान अध्यक्ष प्रोफेसर अशोक झुंझुनवाला हैं। ', 'status': 'success', 'transcript': 'The current President of IIT Matra Research Park is Prof. Ashok Jhunjhunwala.'}
+
+TTS Response status:  success
+
+Done converting to speech
+
+Playing audio
+*************************************************************
+ * Serving Flask app 'app_n_api2'
+ * Debug mode: on
+
+Client connected
+
+New user connected with ID: q9Gkjsmha6l3G7WkAAAC
+
+Client connected
+
+New user connected with ID: XBvwhDPVLvpmYy-zAAAD
+hindi
+
+Client connected
+
+New user connected with ID: wstH8jQh0Fx5_qbLAAAF

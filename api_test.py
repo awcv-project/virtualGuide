@@ -6,7 +6,7 @@ import base64 # for decoding audio (TTS PART)
 #------------------------------------------------------------
 # SAME AS ASR API >>
 url = "https://projects.respark.iitm.ac.in:8000/api"
-input_audio_path = './input.mp3'
+input_audio_path = './input.mp4'
 
 # BUT NOW INSTEAD OF ONE LAGUAGE, WE NEED 2
 source_language = 'hindi'
@@ -29,7 +29,7 @@ response = requests.request("POST", url, headers=headers, data=payload, files=fi
 # THE "response" WILL BE SIMILAR TO THE RESPONSE OF THE TTS API
 # SO AFTER GETTING THE RESPONSE, PROCEED WITH THE TTS RESPONSE DECODING PART LIKE GIVEN BELOW
 audio = response['audio']
-file_name = "tts.mp3"
+file_name = "tts.mp4"
 wav_file = open(file_name,'wb')
 decode_string = base64.b64decode(audio)
 wav_file.write(decode_string)

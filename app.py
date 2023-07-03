@@ -1,41 +1,17 @@
 from flask import Flask, render_template, request, send_file
 from flask_socketio import SocketIO
-# import sounddevice as sd
-# import wavio as wv
-# import numpy as np
 import requests
 import json
 import base64
-# from playsound import playsound
 import ssl
-# import logging
-
-# Configure logging
-# logging.basicConfig(filename='app.log', level=logging.DEBUG)
-
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'key'
 socketio = SocketIO(app)
-#socketio = SocketIO(app, async_mode='gevent', websocket='geventwebsocket')
-
 
 @app.route('/')
 def index():
     return render_template('index.html')
-
-
-# @app.route('/start_recording', methods=['POST'])
-# def start_recording():
-#     print('recording')
-#     sampling_frequency=16000
-#     duration=5
-#     recording = sd.rec(int(duration * sampling_frequency),samplerate=sampling_frequency, channels=2)
-#     sd.wait()
-#     wv.write("input_prompt.wav", recording, sampling_frequency, sampwidth=2)
-#     print('recorded')
-#     playsound('./input_prompt.wav')
-#     return "Recording started"
 
 @socketio.on('new_user')
 def handle_new_user(data):
@@ -118,11 +94,12 @@ def play_voice():
 def speech_to_text(input_language,input_audio_path):
     # print("\nspeech_to_text function called")
     url = "https://asr.iitm.ac.in/asr/v2/decode"
+    # url = "https://projects.respark.iitm.ac.in:1241/decode"
     audio_file = input_audio_path.split('/')[::-1][0]
     payload={'vtt': 'true', 'language': input_language}
     files=[('file',(audio_file,open(input_audio_path,'rb'),'application/octet-stream'))]
     headers = {}
-    response = requests.request("POST", url, headers=headers, data=payload, files=files)
+    response = requests.request("POST", url, headers=headers, data=payload, files=files, verify = False)
     print('\n Speech to Text Response: '+response.text)
     # text = json.loads(response.text)
     # output = text["transcript"]
@@ -150,8 +127,10 @@ def chat_bot(input_question):
     })
     headers = {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer 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'
+    'Authorization': 'Bearer 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'
     }
+
+    #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 >> old key expired/deleted
 
     response = requests.request("POST", url, headers=headers, data=payload)
     output = json.loads(response.text)['choices'][0]['text']
@@ -162,6 +141,7 @@ def chat_bot(input_question):
 def text_to_speech(text,gender,lang):
     # print("Text to Speech function called")
     url = "https://asr.iitm.ac.in/ttsv2/tts"
+    # url = "https://projects.respark.iitm.ac.in:4000/tts"
     payload = json.dumps({
 		"input": text,
 		"gender": gender,
@@ -170,7 +150,7 @@ def text_to_speech(text,gender,lang):
 		"segmentwise":"True"
 	})
     headers = {'Content-Type': 'application/json'}
-    response = requests.request("POST", url, headers=headers, data=payload).json()
+    response = requests.request("POST", url, headers=headers, data=payload,verify=False).json()
     print("\nTTS Response status: ",response['status'])
     return response
 
